@@ -74,6 +74,17 @@ local.properties
 *.gbr
 *.drl
 
+#KiCad Backup files
+*.kicad_prl
+fp-info-cache
+~*.lck
+*-bak
+*-backups
+*-cache*
+*-bak*
+_autosave*
+\#auto_saved_files\#
+
 
 #################
 ## Visual Studio
@@ -161,16 +172,29 @@ Backup*/
 UpgradeLog*.XML
 
 
+# =========================
+# Operating System Files
+# =========================
+
 ############
 ## Windows
 ############
 
 # Windows image file caches
 Thumbs.db
+ehthumbs.db
 
 # Folder config file
 Desktop.ini
 
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
 
 #############
 ## Mac OS
@@ -178,6 +202,10 @@ Desktop.ini
 
 .DS_Store
 
+# OSX
+# ===========
+.AppleDouble
+.LSOverride
 
 #############
 ## Linux
@@ -206,6 +234,9 @@ sdist
 develop-eggs
 .installed.cfg
 
+# Icon must ends with two \r.
+Icon
+
 # Installer logs
 pip-log.txt
 
@@ -213,8 +244,15 @@ pip-log.txt
 .coverage
 .tox
 
+# Thumbnails
+._*
+
 #Translations
 *.mo
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
 
 #Mr Developer
 .mr.developer.cfg
