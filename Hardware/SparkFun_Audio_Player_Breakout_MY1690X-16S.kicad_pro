@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 1.0,
+          "width": 0.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1778
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,15 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|135268193|115336838|15867ade-bc87-4922-9129-417303565686|6408a896-a7fb-4970-b9b8-fbca382d8503",
+        "courtyards_overlap|137155000|111512080|3515707a-fad4-4538-adf9-f7e8b9029ac7|6408a896-a7fb-4970-b9b8-fbca382d8503",
+        "courtyards_overlap|137155000|96752925|22598a38-a7e8-4d4f-b4c9-f220163267d9|3515707a-fad4-4538-adf9-f7e8b9029ac7",
+        "courtyards_overlap|139705000|113156032|5ec4956f-31ca-4a81-b09e-44b28226b9ce|6408a896-a7fb-4970-b9b8-fbca382d8503",
+        "courtyards_overlap|158582705|96525000|2289ed88-b477-416d-aaee-8b1fca9820fe|7abd4b5a-eec3-4c12-abb2-8dba66a7c083",
+        "courtyards_overlap|158886818|91573626|2289ed88-b477-416d-aaee-8b1fca9820fe|61aa0ed3-558f-4c6d-9e62-dd57c48bd5c1",
+        "items_not_allowed|147320000|101550000|e0e36020-bbaa-4821-8206-99bee4144c3f|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -456,7 +464,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SparkFun_Serial_MP3_Player_Shield_MY1690X.kicad_pro",
+    "filename": "SparkFun_Audio_Player_Breakout_MY1690X-16S.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -511,7 +519,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "SparkFun_Audio_Player_Breakout_MY1690X-16S.step",
       "svg": "",
       "vrml": ""
     },
