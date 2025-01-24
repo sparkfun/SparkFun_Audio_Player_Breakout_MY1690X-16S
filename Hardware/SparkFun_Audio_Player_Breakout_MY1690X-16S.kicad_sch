@@ -5,10 +5,11 @@
 	(uuid "e3dd3ae4-244d-4cba-9cca-5d2abf83f29a")
 	(paper "USLetter")
 	(title_block
-		(title "SparkFun Serial MP3 Player Shield")
-		(date "2025-01-17")
-		(rev "v11")
-		(comment 1 "Designed by: N. Seidle")
+		(title "SparkFun Audio Player Breakout MY1690X-16S")
+		(date "2025-01-24")
+		(rev "v01")
+		(comment 1 "Designed by: P. Lewis")
+		(comment 2 "Based on the MP3 Trigger Shield R3 by N. Seidle")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
@@ -2719,7 +2720,7 @@
 				)
 			)
 		)
-		(symbol "SparkFun-Connector:Audio Jack TRRS 3.5mm SMD"
+		(symbol "SparkFun-Connector:Audio_Jack_TRRS_3.5mm_SMD"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2793,7 +2794,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Audio Jack TRRS 3.5mm SMD_0_1"
+			(symbol "Audio_Jack_TRRS_3.5mm_SMD_0_1"
 				(rectangle
 					(start -6.35 -5.08)
 					(end -7.62 -7.62)
@@ -2865,7 +2866,7 @@
 					)
 				)
 			)
-			(symbol "Audio Jack TRRS 3.5mm SMD_1_1"
+			(symbol "Audio_Jack_TRRS_3.5mm_SMD_1_1"
 				(pin passive line
 					(at 5.08 -2.54 180)
 					(length 2.54)
@@ -8670,6 +8671,28 @@
 			)
 		)
 	)
+	(global_label "SD_DET"
+		(shape input)
+		(at 189.23 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40f99d07-69f7-4cbe-9b5c-682ae05e3916")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.4111 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MY_RX_LV"
 		(shape input)
 		(at 139.7 43.18 0)
@@ -8692,9 +8715,9 @@
 			)
 		)
 	)
-	(global_label "SD_DET"
+	(global_label "MY_TX"
 		(shape input)
-		(at 189.23 111.76 180)
+		(at 189.23 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8702,9 +8725,9 @@
 			)
 			(justify right)
 		)
-		(uuid "57cf0dee-1131-45a8-9926-73eb5bf9e135")
+		(uuid "57857ab2-6a37-4daf-a8e3-c8e7d26ea3d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.4111 111.76 0)
+			(at 180.5601 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8716,7 +8739,7 @@
 	)
 	(global_label "MY_RX"
 		(shape input)
-		(at 189.23 114.3 180)
+		(at 189.23 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8724,9 +8747,9 @@
 			)
 			(justify right)
 		)
-		(uuid "6141d493-2c29-42ad-a3b8-25b23aeef6d5")
+		(uuid "5fa2dd8a-aa9b-4334-a02c-c501a7d59c41")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.2577 114.3 0)
+			(at 180.2577 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8930,28 +8953,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MY_TX"
-		(shape input)
-		(at 189.23 116.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ed7ab94f-ef39-4281-a846-d404aaa43f21")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.5601 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -9428,6 +9429,89 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Connector:Audio_Jack_TRRS_3.5mm_SMD")
+		(at 57.15 111.76 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ca85b09-c862-4c1a-9f28-a13dcd468498")
+		(property "Reference" "J1"
+			(at 59.69 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.5mm TRRS"
+			(at 59.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:Audio_Jack_3.5mm_TRRS_SMD_RA"
+			(at 57.15 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Prototyping/20153.pdf"
+			(at 57.15 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 4 Poles (TRRS)"
+			(at 57.15 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CONN-10676"
+			(at 57.15 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "37e7d4cf-1d9c-4f25-95bc-fe26e428e1d9")
+		)
+		(pin "T"
+			(uuid "aaabff05-68ac-4008-b53f-7a702538946f")
+		)
+		(pin "R2"
+			(uuid "40c8c0a3-49c4-411d-aaa7-cf957128791f")
+		)
+		(pin "R1"
+			(uuid "1739038c-dd3b-4a9a-be07-8a09168644df")
+		)
+		(instances
+			(project ""
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V_P")
 		(at 119.38 111.76 0)
 		(unit 1)
@@ -9877,7 +9961,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Aesthetic:SparkFun_Logo")
-		(at 212.09 179.07 0)
+		(at 210.82 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9886,7 +9970,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f71d36e-2564-4a65-a00f-3b68769ddaf6")
 		(property "Reference" "G5"
-			(at 212.09 172.72 0)
+			(at 210.82 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9895,7 +9979,7 @@
 			)
 		)
 		(property "Value" "SparkFun_Logo"
-			(at 212.09 184.15 0)
+			(at 210.82 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9904,7 +9988,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Aesthetic:SparkFun_Logo_8mm"
-			(at 212.09 186.69 0)
+			(at 210.82 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9913,7 +9997,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.903 175.2712 0)
+			(at 214.633 160.0312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9922,7 +10006,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 179.07 0)
+			(at 210.82 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13046,70 +13130,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Aesthetic:SparkFun_Logo")
-		(at 212.09 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2decde1-62d4-4670-a064-d07726e72b30")
-		(property "Reference" "G3"
-			(at 212.09 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "SparkFun_Logo"
-			(at 212.09 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.903 175.2712 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 212.09 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "SparkFun_RTK_Postcard"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "G3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-Aesthetic:Fiducial_0.5mm")
 		(at 260.35 177.8 0)
 		(unit 1)
@@ -13380,89 +13400,6 @@
 			(project "SparkFun_Audio_Player_Breakout_MY1690X-16S"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Connector:Audio Jack TRRS 3.5mm SMD")
-		(at 57.15 111.76 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cd47a90f-553f-4595-b463-5c21e81001a7")
-		(property "Reference" "J1"
-			(at 59.69 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.5mm TRRS"
-			(at 59.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SparkFun-Connector:Audio_Jack_3.5mm_TRRS_SMD_RA"
-			(at 57.15 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Prototyping/20153.pdf"
-			(at 57.15 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 4 Poles (TRRS)"
-			(at 57.15 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD-ID" "CONN-10676"
-			(at 57.15 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "R2"
-			(uuid "3a10a622-6584-471b-96f9-1d569d59a362")
-		)
-		(pin "S"
-			(uuid "1fcab984-2110-476c-8772-c368bb70bba8")
-		)
-		(pin "T"
-			(uuid "49a38e92-f436-4106-9c1e-e977addaace3")
-		)
-		(pin "R1"
-			(uuid "7fc174a6-6c9e-4e4c-a50c-4c149355f55a")
-		)
-		(instances
-			(project ""
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "J1")
 					(unit 1)
 				)
 			)
