@@ -4247,13 +4247,13 @@
 				)
 			)
 		)
-		(symbol "SparkFun-DiscreteSemi:D_TVS_ESD_USB_SOT886"
+		(symbol "SparkFun-DiscreteSemi:D_TVS_ESD_USB"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at -8.636 -0.762 90)
+				(at -8.636 -2.794 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4261,8 +4261,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "PRTR5V0U2F"
-				(at 9.144 -6.604 90)
+			(property "Value" "DT1042-04SO"
+				(at 9.398 -8.382 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4270,8 +4270,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-886"
-				(at 0 -12.7 0)
+			(property "Footprint" "SparkFun-Semiconductor-Standard:SOT23-6"
+				(at 0 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4279,8 +4279,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2F_PRTR5V0U2K.pdf"
-				(at 0 -15.24 0)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DT1042-04SO.pdf"
+				(at 0 -16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4288,8 +4288,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Ultra low capacitance ESD protection diode, 2 data-line, SOT-886"
-				(at -1.016 -19.812 0)
+			(property "Description" "Very low capacitance ESD protection diode, 4 data-line, SOT-23-6"
+				(at 0.254 -21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4297,8 +4297,8 @@
 					(hide yes)
 				)
 			)
-			(property "PROD_ID" "DIO-14084"
-				(at 0 -17.78 0)
+			(property "PROD_ID" "IC-13538"
+				(at 0 -19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4306,7 +4306,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "SparkFun usb tvs esd"
+			(property "ki_keywords" "SparkFun usb ethernet sim card video"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4324,9 +4324,42 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_TVS_ESD_USB_SOT886_0_1"
+			(symbol "D_TVS_ESD_USB_0_1"
 				(circle
-					(center -6.35 0)
+					(center -5.08 1.27)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -2.54 -7.62)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -2.54 -3.81)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -2.54 5.08)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -4337,8 +4370,8 @@
 					)
 				)
 				(rectangle
-					(start -2.54 -6.35)
-					(end 2.54 6.35)
+					(start -2.54 5.08)
+					(end 2.54 -7.62)
 					(stroke
 						(width 0)
 						(type default)
@@ -4348,18 +4381,7 @@
 					)
 				)
 				(circle
-					(center -2.54 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 -6.35)
+					(center 0 -7.62)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -4371,7 +4393,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -6.35 0)
+						(xy -5.08 1.27) (xy -6.35 1.27)
 					)
 					(stroke
 						(width 0)
@@ -4383,7 +4405,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 -3.429) (xy -3.556 -3.429)
+						(xy -4.064 -4.699) (xy -6.096 -4.699)
 					)
 					(stroke
 						(width 0)
@@ -4395,7 +4417,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 5.461) (xy -3.556 5.461)
+						(xy -4.064 4.191) (xy -6.096 4.191)
 					)
 					(stroke
 						(width 0)
@@ -4407,7 +4429,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -7.62) (xy 0 -6.35)
+						(xy -2.54 -3.81) (xy -6.35 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -4419,7 +4441,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -6.35) (xy 0 1.27)
+						(xy -1.524 -4.699) (xy -3.556 -4.699)
 					)
 					(stroke
 						(width 0)
@@ -4431,7 +4453,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy 0 6.35)
+						(xy -1.524 4.191) (xy -3.556 4.191)
 					)
 					(stroke
 						(width 0)
@@ -4443,7 +4465,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 6.35) (xy 0 7.62)
+						(xy 0 -8.89) (xy 0 -7.62)
 					)
 					(stroke
 						(width 0)
@@ -4455,7 +4477,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.524 -3.429) (xy 3.556 -3.429)
+						(xy 0 -7.62) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -4467,7 +4489,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.524 5.461) (xy 3.556 5.461)
+						(xy 0 0) (xy 0 5.08)
 					)
 					(stroke
 						(width 0)
@@ -4479,7 +4501,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 6.35 0)
+						(xy 0 5.08) (xy 0 6.35)
 					)
 					(stroke
 						(width 0)
@@ -4491,7 +4513,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.556 -5.461) (xy -1.524 -5.461) (xy -2.54 -3.429) (xy -3.556 -5.461)
+						(xy 1.524 -4.699) (xy 3.556 -4.699)
 					)
 					(stroke
 						(width 0)
@@ -4503,7 +4525,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.556 3.429) (xy -1.524 3.429) (xy -2.54 5.461) (xy -3.556 3.429)
+						(xy 1.524 4.191) (xy 3.556 4.191)
 					)
 					(stroke
 						(width 0)
@@ -4515,7 +4537,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.016 -1.016) (xy 1.016 -1.016) (xy 0 1.016) (xy -1.016 -1.016)
+						(xy 2.54 1.27) (xy 6.35 1.27)
 					)
 					(stroke
 						(width 0)
@@ -4527,7 +4549,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.0152 1.5384) (xy 1.0152 1.0162) (xy -1.016 1.016) (xy -1.016 0.508)
+						(xy 4.064 -4.699) (xy 6.096 -4.699)
 					)
 					(stroke
 						(width 0)
@@ -4539,7 +4561,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.556 -5.461) (xy 1.524 -5.461) (xy 2.54 -3.429) (xy 3.556 -5.461)
+						(xy 4.064 4.191) (xy 6.096 4.191)
 					)
 					(stroke
 						(width 0)
@@ -4551,7 +4573,151 @@
 				)
 				(polyline
 					(pts
-						(xy 3.556 3.429) (xy 1.524 3.429) (xy 2.54 5.461) (xy 3.556 3.429)
+						(xy 5.08 -3.81) (xy 6.35 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.096 -6.731) (xy -4.064 -6.731) (xy -5.08 -4.699) (xy -6.096 -6.731)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.096 2.159) (xy -4.064 2.159) (xy -5.08 4.191) (xy -6.096 2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.556 -6.731) (xy -1.524 -6.731) (xy -2.54 -4.699) (xy -3.556 -6.731)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.556 2.159) (xy -1.524 2.159) (xy -2.54 4.191) (xy -3.556 2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -5.08 5.08) (xy -5.08 -7.62) (xy -2.54 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -2.286) (xy 1.016 -2.286) (xy 0 -0.254) (xy -1.016 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.0152 0.2684) (xy 1.0152 -0.2538) (xy -1.016 -0.254) (xy -1.016 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 5.08 5.08) (xy 5.08 -7.62) (xy 2.54 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 -6.731) (xy 1.524 -6.731) (xy 2.54 -4.699) (xy 3.556 -6.731)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 2.159) (xy 1.524 2.159) (xy 2.54 4.191) (xy 3.556 2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.096 -6.731) (xy 4.064 -6.731) (xy 5.08 -4.699) (xy 6.096 -6.731)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.096 2.159) (xy 4.064 2.159) (xy 5.08 4.191) (xy 6.096 2.159)
 					)
 					(stroke
 						(width 0)
@@ -4562,7 +4728,7 @@
 					)
 				)
 				(circle
-					(center 0 6.35)
+					(center 0 5.08)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -4573,7 +4739,7 @@
 					)
 				)
 				(circle
-					(center 2.54 0)
+					(center 2.54 -7.62)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -4584,7 +4750,29 @@
 					)
 				)
 				(circle
-					(center 6.35 0)
+					(center 2.54 1.27)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 5.08)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 5.08 -3.81)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -4595,10 +4783,10 @@
 					)
 				)
 			)
-			(symbol "D_TVS_ESD_USB_SOT886_1_1"
+			(symbol "D_TVS_ESD_USB_1_1"
 				(rectangle
-					(start -7.62 -7.62)
-					(end 7.62 7.62)
+					(start -7.62 6.35)
+					(end 7.62 -8.89)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -4609,7 +4797,7 @@
 				)
 				(polyline
 					(pts
-						(xy -6.35 -7.62) (xy -6.35 0)
+						(xy -6.35 -8.89) (xy -6.35 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -4621,7 +4809,7 @@
 				)
 				(polyline
 					(pts
-						(xy -6.35 7.62) (xy -6.35 0)
+						(xy -6.35 6.35) (xy -6.35 1.27)
 					)
 					(stroke
 						(width 0)
@@ -4633,7 +4821,7 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 0) (xy 6.35 -7.62)
+						(xy 6.35 -3.81) (xy 6.35 -8.89)
 					)
 					(stroke
 						(width 0)
@@ -4645,7 +4833,7 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 0) (xy 6.35 7.62)
+						(xy 6.35 1.27) (xy 6.35 6.35)
 					)
 					(stroke
 						(width 0)
@@ -4656,7 +4844,7 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -10.16 90)
+					(at -6.35 -11.43 90)
 					(length 2.54)
 					(name "I/O1"
 						(effects
@@ -4674,7 +4862,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -10.16 90)
+					(at 0 -11.43 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -4692,7 +4880,7 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 -10.16 90)
+					(at 6.35 -11.43 90)
 					(length 2.54)
 					(name "I/O2"
 						(effects
@@ -4710,7 +4898,7 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 10.16 270)
+					(at 6.35 8.89 270)
 					(length 2.54)
 					(name "I/O3"
 						(effects
@@ -4728,7 +4916,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 10.16 270)
+					(at 0 8.89 270)
 					(length 2.54)
 					(name "VCC"
 						(effects
@@ -4746,7 +4934,7 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 10.16 270)
+					(at -6.35 8.89 270)
 					(length 2.54)
 					(name "I/O4"
 						(effects
@@ -7224,10 +7412,10 @@
 		)
 	)
 	(junction
-		(at 68.58 53.34)
+		(at 68.58 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "16a8537d-af7f-4560-9800-7ab5c8f10bb0")
+		(uuid "4c1b7fce-700a-4a45-9e7b-86f761944a22")
 	)
 	(junction
 		(at 201.93 59.69)
@@ -7240,6 +7428,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65921048-269a-45d1-b5fa-0ec680c518f5")
+	)
+	(junction
+		(at 81.28 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cb7e966-c2f2-481c-a2be-ba924c376357")
 	)
 	(junction
 		(at 119.38 120.65)
@@ -7271,12 +7465,6 @@
 		(color 0 0 0 0)
 		(uuid "e8f232d2-bdf5-4192-a4db-43c5b639cb81")
 	)
-	(junction
-		(at 81.28 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe379290-d3d9-4fe9-abf3-c85bd05db3f3")
-	)
 	(wire
 		(pts
 			(xy 203.2 36.83) (xy 201.93 36.83)
@@ -7306,6 +7494,16 @@
 			(type default)
 		)
 		(uuid "06c15f05-bc7b-497e-85ee-71dcdcc22d81")
+	)
+	(wire
+		(pts
+			(xy 49.53 50.8) (xy 68.58 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09cd108a-80db-4819-a296-54214377ce5e")
 	)
 	(wire
 		(pts
@@ -7356,16 +7554,6 @@
 			(type default)
 		)
 		(uuid "104d73e2-964b-4536-9466-354c4a947208")
-	)
-	(wire
-		(pts
-			(xy 49.53 53.34) (xy 68.58 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1361bf98-1eab-4eef-a092-a3944cbbc828")
 	)
 	(wire
 		(pts
@@ -7489,7 +7677,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 53.34) (xy 113.03 53.34)
+			(xy 49.53 53.34) (xy 81.28 53.34)
 		)
 		(stroke
 			(width 0)
@@ -7609,23 +7797,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 40.64) (xy 68.58 53.34)
+			(xy 68.58 40.64) (xy 68.58 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3fedb3ad-fee8-4b4f-8b03-8fa3c1e95e43")
-	)
-	(wire
-		(pts
-			(xy 49.53 50.8) (xy 81.28 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42f136a1-d5d1-40ca-bbbc-508cc3f14532")
+		(uuid "3eb1b162-62a3-497c-9af7-a016d7987149")
 	)
 	(wire
 		(pts
@@ -7679,16 +7857,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 50.8) (xy 113.03 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "525f90e8-525b-469c-8d41-1fb3a1cea6aa")
-	)
-	(wire
-		(pts
 			(xy 195.58 54.61) (xy 203.2 54.61)
 		)
 		(stroke
@@ -7699,16 +7867,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 40.64) (xy 81.28 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59e0c783-8580-4db6-9617-8aa9d5b39b78")
-	)
-	(wire
-		(pts
 			(xy 190.5 106.68) (xy 190.5 123.19)
 		)
 		(stroke
@@ -7716,6 +7874,16 @@
 			(type default)
 		)
 		(uuid "5dfc0a03-a458-41bd-9851-6b9dd126508a")
+	)
+	(wire
+		(pts
+			(xy 81.28 40.64) (xy 81.28 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f92ff40-bbfc-4504-a27f-f4f9e1964e18")
 	)
 	(wire
 		(pts
@@ -7956,6 +8124,16 @@
 			(type default)
 		)
 		(uuid "9e5348ee-5021-4be6-bff6-621a54891746")
+	)
+	(wire
+		(pts
+			(xy 81.28 53.34) (xy 113.03 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a799460b-3e6d-4bfe-9779-83ab8fe8e114")
 	)
 	(wire
 		(pts
@@ -8316,6 +8494,16 @@
 			(type default)
 		)
 		(uuid "e6b61ea6-e4a5-4f03-a081-35620ee28c10")
+	)
+	(wire
+		(pts
+			(xy 68.58 50.8) (xy 113.03 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e70e3b7c-06fe-421f-95b5-05e15e2b6aed")
 	)
 	(wire
 		(pts
@@ -12738,6 +12926,97 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-DiscreteSemi:D_TVS_ESD_USB")
+		(at 74.93 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99a44b41-5cb3-49ad-9d93-2036bf44f0df")
+		(property "Reference" "D6"
+			(at 83.82 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DT1042-04SO"
+			(at 83.82 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT23-6"
+			(at 74.93 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DT1042-04SO.pdf"
+			(at 74.93 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Very low capacitance ESD protection diode, 4 data-line, SOT-23-6"
+			(at 75.184 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "IC-13538"
+			(at 74.93 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ca7bfdf6-9fa2-4346-a93e-4cbdb2c0ca65")
+		)
+		(pin "3"
+			(uuid "e95d4ed6-fee4-4cab-b48b-1a21d91fb075")
+		)
+		(pin "1"
+			(uuid "23dacf83-a995-47a2-828d-e1660f9c2e2a")
+		)
+		(pin "4"
+			(uuid "b87b59c5-4610-4af1-bf9d-390478ee7a68")
+		)
+		(pin "6"
+			(uuid "68db4265-7235-4240-aa14-9b6ddb5ecb75")
+		)
+		(pin "5"
+			(uuid "8ee513ff-8b42-4425-a81f-d76c1ca290d9")
+		)
+		(instances
+			(project ""
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-DiscreteSemi:Q_NMOS_0.2A_50V")
 		(at 125.73 118.11 270)
 		(unit 1)
@@ -14459,97 +14738,6 @@
 			(project "SparkFun_Serial_MP3_Player_Shield_MY1690X"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-DiscreteSemi:D_TVS_ESD_USB_SOT886")
-		(at 74.93 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fcca3314-371d-49cc-86ae-4d091679d89f")
-		(property "Reference" "D5"
-			(at 83.82 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PRTR5V0U2F"
-			(at 83.82 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-886"
-			(at 74.93 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2F_PRTR5V0U2K.pdf"
-			(at 74.93 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ultra low capacitance ESD protection diode, 2 data-line, SOT-886"
-			(at 73.914 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" "DIO-14084"
-			(at 74.93 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "8c47c0f8-76ac-4854-bbac-b10814f4537b")
-		)
-		(pin "5"
-			(uuid "b0815e3c-76c8-4be8-abf4-9ff87c6e54bb")
-		)
-		(pin "2"
-			(uuid "82174734-be53-445e-8240-fa662708aa07")
-		)
-		(pin "3"
-			(uuid "8a8e8d3c-fba9-4b7a-aa01-75a746f8124f")
-		)
-		(pin "1"
-			(uuid "4b852930-1d32-4110-8e97-31c9f91ef8d9")
-		)
-		(pin "6"
-			(uuid "69728e2b-f8ab-41fd-a66f-30db1eb1bb8d")
-		)
-		(instances
-			(project ""
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "D5")
 					(unit 1)
 				)
 			)
