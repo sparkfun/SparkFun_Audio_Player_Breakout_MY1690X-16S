@@ -6,10 +6,10 @@
 	(paper "USLetter")
 	(title_block
 		(title "SparkFun Audio Player Breakout MY1690X-16S")
-		(date "2025-01-24")
+		(date "2025-01-28")
 		(rev "v01")
-		(comment 1 "Designed by: P. Lewis")
-		(comment 2 "Based on the MP3 Trigger Shield R3 by N. Seidle")
+		(comment 1 "Based on the MP3 Trigger Shield R3 by N. Seidle")
+		(comment 2 "Designed by: P. Lewis")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
