@@ -1,0 +1,19 @@
+2025-01-29 14:48:41,637 - cammer_logger - INFO - Running CAMmer
+2025-01-29 14:48:41,637 - cammer_logger - INFO - ['-l', 'F.Cu,In1.Cu,In2.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask', '-e', 'Edge.Cuts,User.Comments']
+2025-01-29 14:48:41,639 - cammer_logger - INFO - CAMMER START: 2025-01-29T14:48:41.639640
+2025-01-29 14:48:41,716 - cammer_logger - INFO - 
+START: 2025-01-29T14:48:41.639640
+Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Audio_Player_Breakout_MY1690X-16S/Hardware/SparkFun_Audio_Player_Breakout_MY1690X-16S-F_Cu.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Audio_Player_Breakout_MY1690X-16S/Hardware/SparkFun_Audio_Player_Breakout_MY1690X-16S.GTL
+Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Audio_Player_Breakout_MY1690X-16S/Hardware/SparkFun_Audio_Player_Breakout_MY1690X-16S-In1_Cu.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Audio_Player_Breakout_MY1690X-16S/Hardware/SparkFun_Audio_Player_Breakout_MY1690X-16S.GL2
+Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Audio_Player_Breakout_MY1690X-16S/Hardware/SparkFun_Audio_Player_Breakout_MY1690X-16S-In2_Cu.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Audio_Player_Breakout_MY1690X-16S/Hardware/SparkFun_Audio_Player_Breakout_MY1690X-16S.GL3
+Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Audio_Player_Breakout_MY1690X-16S/Hardware/SparkFun_Audio_Player_Breakout_MY1690X-16S-B_Cu.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Audio_Player_Breakout_MY1690X-16S/Hardware/SparkFun_Audio_Player_Breakout_MY1690X-16S.GBL
+Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Audio_Player_Breakout_MY1690X-16S/Hardware/SparkFun_Audio_Player_Breakout_MY1690X-16S-F_Paste.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Audio_Player_Breakout_MY1690X-16S/Hardware/SparkFun_Audio_Player_Breakout_MY1690X-16S.GTP
+Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Audio_Player_Breakout_MY1690X-16S/Hardware/SparkFun_Audio_Player_Breakout_MY1690X-16S-B_Paste.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Audio_Player_Breakout_MY1690X-16S/Hardware/SparkFun_Audio_Player_Breakout_MY1690X-16S.GBP
+Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Audio_Player_Breakout_MY1690X-16S/Hardware/SparkFun_Audio_Player_Breakout_MY1690X-16S-F_Silkscreen.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Audio_Player_Breakout_MY1690X-16S/Hardware/SparkFun_Audio_Player_Breakout_MY1690X-16S.GTO
+Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Audio_Player_Breakout_MY1690X-16S/Hardware/SparkFun_Audio_Player_Breakout_MY1690X-16S-B_Silkscreen.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Audio_Player_Breakout_MY1690X-16S/Hardware/SparkFun_Audio_Player_Breakout_MY1690X-16S.GBO
+Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Audio_Player_Breakout_MY1690X-16S/Hardware/SparkFun_Audio_Player_Breakout_MY1690X-16S-F_Mask.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Audio_Player_Breakout_MY1690X-16S/Hardware/SparkFun_Audio_Player_Breakout_MY1690X-16S.GTS
+Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Audio_Player_Breakout_MY1690X-16S/Hardware/SparkFun_Audio_Player_Breakout_MY1690X-16S-B_Mask.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Audio_Player_Breakout_MY1690X-16S/Hardware/SparkFun_Audio_Player_Breakout_MY1690X-16S.GBS
+Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Audio_Player_Breakout_MY1690X-16S/Hardware/SparkFun_Audio_Player_Breakout_MY1690X-16S-Edge_Cuts.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Audio_Player_Breakout_MY1690X-16S/Hardware/SparkFun_Audio_Player_Breakout_MY1690X-16S.GKO
+Drill report: C:\Users\pete.lewis\Documents\GitHub\SparkFun_Audio_Player_Breakout_MY1690X-16S\Hardware\drill_report.rpt
+
+2025-01-29 14:48:42,912 - cammer_logger - INFO - CAMmer complete

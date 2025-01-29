@@ -1,0 +1,13 @@
+Ordering Instructions:
+Panel dimensions: 116.80 x 84.05 mm.
+Solder Mask: Black
+Silkscreen Color: White
+Layers: 4
+Finish: Lead-free HASL
+Thickness: 1.6mm
+Outer Copper Weight: 1oz
+Inner Copper Weight: 0.5oz
+Minimum track width: 0.25mm (10.00mil)
+Minimum via drill: 0.30mm (11.81mil)
+NPTH (NON PLATED THROUGH HOLE) Drills: 1.2mm dia (0.0472 inch dia)
+ALL OTHER DRILLS PLATED THROUGH HOLE
