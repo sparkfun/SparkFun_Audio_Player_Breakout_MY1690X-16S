@@ -1,48 +1,58 @@
-SparkFun <PRODUCT NAME>
+SparkFun Audio Player Breakout - MY1690X-16S
 ========================================
 
-[![SparkFun Part Name](URL for picture of part)](URL for product on Sparkfun.com)
+[![SparkFun Audio Player Breakout - MY1690X-16S](URL for picture of part)](https://www.sparkfun.com/catalog/product/view/id/28038)
 
-[*SparkFun Part Name (SKU)*](URL for product on Sparkfun.com)
+[*SparkFun Audio Player Breakout - MY1690X-16S (BOB-28038)*](https://www.sparkfun.com/catalog/product/view/id/28038)
 
 <Basic description of the part.>
+
+
 
 Repository Contents
 -------------------
 
-* **/Documentation** - Data sheets, additional product information
-* **/Enclosure** - Enclosure files 
-* **/Firmware** - Example code 
-* **/Hardware** - Eagle design files (.brd, .sch)
-* **/Libraries** - Libraries for use with the <PRODUCT NAME>
-* **/Production** - Production panel files (.brd)
-* **/Software** - Related software for the <PRODUCT NAME>
+* **.github/workflows** - YAML files used for GitHub Actions and GitHub Pages/mkdocs
+* **/Hardware** - KiCad design files (.kicad_pcb, .kicad_sch, .kicad_pro)
+  * **/Production** - Production panel files (.kicad_pcb)
+* **/docs** - Online documentation files
+  * **/assets** - Folder containing all the file assets used for product documentation
+    * **/board_files** - Copy of design files used for product documentation
+    * **/component_documentation** - Datasheets and manuals for hardware components
+    * **/img** - Images for product documentation
+  * **/github** - Files stating how to contribute and filing issues used for product documentation
+  * **/javascript** - Folder containing custom javascript used for product documentation
+  * **/stylesheet** - Folder containing CSS files used for product documentation
+* **/overrides** - Customization files used for product documentation
+  * **/.icons** - Icons used for GitHub used for product documentation
+  * **./partials** - Used for product documentation
+
+
 
 Documentation
 --------------
-* **[Library](GitHub library URL)** - <LANGUAGE> library for the <PRODUCT NAME>.
-* **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the <PRODUCT NAME>.
-* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
-* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
-* **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical Datasheets for various SparkFun products.
+* **[Hookup Guide](https://docs.sparkfun.com/SparkFun_Audio_Player_Breakout_MY1690X-16S)** - Basic hookup guide for the SparkFun Serial Audio Player Breakout - MY1690X.
+
+
 
 Product Versions
 ----------------
-* [Part SKU](part URL) - Basic part and short description here
-* [Retail part SKU](retail URL) - Retail packaging of standard description here
-* [Any other parts this repo covers](any other URLs) - Description of said parts
+* [BOB-28038](https://www.sparkfun.com/catalog/product/view/id/28038) - v1.0
+
+
 
 Version History
 ---------------
-* [vExxFxxZxxHxxLxxSxx](URL for tag specific to this version) - Description 
-* [vEyyFyyZyyHyyLyySyy](URL for tag specific to this version) - Description
+* v1.0 - Initial release
+
+
 
 License Information
 -------------------
 
-This product is _**open source**_! 
+This product is _**open source**_!
 
-Please review the LICENSE.md file for license information. 
+Please review the LICENSE.md file for license information.
 
 If you have any questions or concerns on licensing, please contact technical support on our [SparkFun forums](https://forum.sparkfun.com/viewforum.php?f=152).
 
