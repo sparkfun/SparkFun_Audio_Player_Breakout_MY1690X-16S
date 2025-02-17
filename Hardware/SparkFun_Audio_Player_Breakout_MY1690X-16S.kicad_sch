@@ -8703,9 +8703,29 @@
 		)
 		(uuid "ffd7ebae-e27b-4267-9fd8-56a7a9798f12")
 	)
+	(text "USBC"
+		(exclude_from_sim no)
+		(at 35.56 17.78 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "0e8e001f-0597-465a-9bf4-bfa590d71148")
+	)
+	(text "Serial Conversion"
+		(exclude_from_sim no)
+		(at 121.92 86.36 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "1572a85e-26c9-4fa6-8f13-f5b5d6f81f24")
+	)
 	(text "MY1609 requires 3.4V to 5V"
 		(exclude_from_sim no)
-		(at 126.238 21.082 0)
+		(at 127 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8714,31 +8734,15 @@
 		)
 		(uuid "466ae85c-21f7-4b78-af23-027bd8286b16")
 	)
-	(text "Serial Conversion"
-		(exclude_from_sim no)
-		(at 122.682 86.106 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-				(color 132 0 0 1)
-			)
-		)
-		(uuid "668d3b31-67c2-4eec-bc3d-45ef7401227e")
-	)
 	(text "Audio Output (3.5mm TRRS)"
 		(exclude_from_sim no)
-		(at 49.022 85.344 0)
+		(at 50.8 86.36 0)
 		(effects
 			(font
 				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-				(color 132 0 0 1)
 			)
 		)
-		(uuid "6d1a8f8c-8a0e-46f3-a37e-5733b929dd46")
+		(uuid "7ce6af0a-6d74-416d-ab8b-10b63cbe1f4d")
 	)
 	(text "Cut BUSY and/or PWR jumper\nto disable LEDs as you wish."
 		(exclude_from_sim no)
@@ -8751,44 +8755,55 @@
 		)
 		(uuid "7f7e8b7d-c661-4861-bab4-692b72dddc7e")
 	)
-	(text "USBC"
+	(text "micro SD Socket"
 		(exclude_from_sim no)
-		(at 35.052 17.272 0)
+		(at 226.06 17.78 0)
 		(effects
 			(font
 				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-				(color 132 0 0 1)
 			)
 		)
-		(uuid "870459ef-c07d-4946-a012-2096c26e0abb")
+		(uuid "7fd57fd6-dd03-4891-83eb-bf06f110015b")
 	)
-	(text "microSD"
+	(text "Power Input"
 		(exclude_from_sim no)
-		(at 237.49 17.018 0)
+		(at 48.26 151.13 0)
 		(effects
 			(font
 				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-				(color 132 0 0 1)
 			)
 		)
-		(uuid "a4977e24-b192-409a-a75b-e9970dc441f0")
+		(uuid "8489cfb6-5c6e-4bb1-9b63-13f9eba8757d")
 	)
-	(text "Audio Player"
+	(text "PTH Header Pins"
 		(exclude_from_sim no)
-		(at 126.238 17.272 0)
+		(at 213.36 86.36 0)
 		(effects
 			(font
 				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-				(color 132 0 0 1)
 			)
 		)
-		(uuid "c710aa9c-fd77-4e51-ba74-0721ca086222")
+		(uuid "9e63fe50-a028-45cc-a7d8-8df816aa11c3")
+	)
+	(text "Audio Player IC"
+		(exclude_from_sim no)
+		(at 127 17.78 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "abb244ed-229c-421b-9a00-a5b55fec731e")
+	)
+	(text "LEDs"
+		(exclude_from_sim no)
+		(at 125.73 151.13 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "bb2b974d-83e0-4b41-b7f2-69609a6ca7b5")
 	)
 	(text "Cut SLV jumper to free up the sleeve\nof the TRRS connector/cable.\nNote, most earbuds with built-in mics\nsend the MIC signal on the sleeve of their\nTRRS cable connector."
 		(exclude_from_sim no)
@@ -8803,7 +8818,7 @@
 	)
 	(text "VIN: 3.4V to 5V"
 		(exclude_from_sim no)
-		(at 47.752 154.432 0)
+		(at 48.26 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8811,45 +8826,6 @@
 			)
 		)
 		(uuid "cf7f6a40-acd8-4f36-8323-9e4c25c6a735")
-	)
-	(text "Power Input"
-		(exclude_from_sim no)
-		(at 47.752 149.606 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-				(color 132 0 0 1)
-			)
-		)
-		(uuid "faa304eb-832a-4c3a-b894-28840d7bf21f")
-	)
-	(text "PTH Header Pins"
-		(exclude_from_sim no)
-		(at 215.646 84.328 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-				(color 132 0 0 1)
-			)
-		)
-		(uuid "fc890885-06d4-45ef-896a-94b4bade7c30")
-	)
-	(text "LEDs"
-		(exclude_from_sim no)
-		(at 125.222 150.368 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-				(color 132 0 0 1)
-			)
-		)
-		(uuid "fd671e1f-b1fb-4b90-871c-b4d8d94cf60c")
 	)
 	(global_label "BUSY"
 		(shape input)
