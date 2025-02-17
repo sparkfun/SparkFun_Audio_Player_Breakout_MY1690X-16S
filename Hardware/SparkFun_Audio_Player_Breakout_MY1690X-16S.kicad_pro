@@ -65,7 +65,10 @@
         "courtyards_overlap|139705000|113156032|5ec4956f-31ca-4a81-b09e-44b28226b9ce|6408a896-a7fb-4970-b9b8-fbca382d8503",
         "courtyards_overlap|158582705|96525000|2289ed88-b477-416d-aaee-8b1fca9820fe|7abd4b5a-eec3-4c12-abb2-8dba66a7c083",
         "courtyards_overlap|158886818|91573626|2289ed88-b477-416d-aaee-8b1fca9820fe|61aa0ed3-558f-4c6d-9e62-dd57c48bd5c1",
-        "items_not_allowed|147320000|99858000|e0e36020-bbaa-4821-8206-99bee4144c3f|00000000-0000-0000-0000-000000000000"
+        "items_not_allowed|147320000|99858000|e0e36020-bbaa-4821-8206-99bee4144c3f|00000000-0000-0000-0000-000000000000",
+        "silk_edge_clearance|134646000|99248403|0acc1d9e-32c0-41ff-bb65-642a0ca72365|ecc77217-dae0-4f7c-8dea-752f78c67e62",
+        "silk_edge_clearance|134652786|99231000|0acc1d9e-32c0-41ff-bb65-642a0ca72365|59f98d39-bdb5-4832-bdd9-ae528f919630",
+        "solder_mask_bridge|151687792|99693300|c79ff853-dc13-4915-8d1e-8c2837c1e8c8|aff3a1d9-acf5-4fca-8f70-1b96e78bc30b"
       ],
       "meta": {
         "version": 2
