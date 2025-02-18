@@ -14697,7 +14697,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Solder Mask: Black"
+	(gr_text "Solder Mask: Red"
 		(at 189.019 140.231 0)
 		(layer "Eco1.User")
 		(uuid "5ae602ab-50cb-456e-8c1d-199bd2bedddb")
