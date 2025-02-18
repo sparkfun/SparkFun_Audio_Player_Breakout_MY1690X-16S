@@ -16,27 +16,29 @@
 	)
 	(layers
 		(0 "F.Cu" signal)
-		(1 "In1.Cu" signal)
-		(2 "In2.Cu" signal)
-		(31 "B.Cu" jumper)
+		(1 "In1.Cu" mixed)
+		(2 "In2.Cu" power)
+		(31 "B.Cu" signal)
 		(34 "B.Paste" user)
 		(35 "F.Paste" user)
 		(36 "B.SilkS" user "B.Silkscreen")
 		(37 "F.SilkS" user "F.Silkscreen")
 		(38 "B.Mask" user)
 		(39 "F.Mask" user)
-		(40 "Dwgs.User" user "User.Drawings")
-		(41 "Cmts.User" user "User.Comments")
-		(42 "Eco1.User" user "Ordering Instructions")
-		(43 "Eco2.User" user "License")
+		(40 "Dwgs.User" user "Measures")
+		(41 "Cmts.User" user "Design.Info")
+		(42 "Eco1.User" user "Fab.Info")
+		(43 "Eco2.User" user "License.Info")
 		(44 "Edge.Cuts" user)
 		(45 "Margin" user)
 		(46 "B.CrtYd" user "B.Courtyard")
 		(47 "F.CrtYd" user "F.Courtyard")
-		(48 "B.Fab" user)
-		(49 "F.Fab" user)
-		(50 "User.1" user)
-		(51 "User.2" user)
+		(48 "B.Fab" user "B.Outlines")
+		(49 "F.Fab" user "F.Outlines")
+		(50 "User.1" user "Milling")
+		(51 "User.2" user "Board.Props")
+		(52 "User.3" user "Selective.Solder")
+		(53 "User.4" user "Enclosure.Info")
 	)
 	(setup
 		(stackup
@@ -306,6 +308,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -317,6 +320,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1116,6 +1120,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1127,6 +1132,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1240,6 +1246,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1251,6 +1258,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1605,6 +1613,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1616,6 +1625,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2266,7 +2276,7 @@
 		)
 		(fp_arc
 			(start 1.5653 -5.257777)
-			(mid 1.834725 -5.146217)
+			(mid 1.834722 -5.146216)
 			(end 1.9463 -4.8768)
 			(stroke
 				(width 0.2032)
@@ -2935,6 +2945,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2946,6 +2957,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4088,6 +4100,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4099,6 +4112,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4734,7 +4748,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "SparkFun resistor")
 		(property "Reference" "R2"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.Fab")
 			(uuid "62df9533-7783-499f-92f5-9a39c03d3da4")
 			(effects
@@ -4746,7 +4760,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "fc7ea848-b42b-4838-afda-e35b0ae89dee")
 			(effects
@@ -5335,6 +5349,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5346,6 +5361,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6699,6 +6715,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6710,6 +6727,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7277,7 +7295,7 @@
 		(attr exclude_from_bom)
 		(fp_text user " https://creativecommons.org/licenses/by-sa/4.0/"
 			(at 0 1.27 0)
-			(layer "User.1")
+			(layer "Eco2.User")
 			(uuid "2e28a385-b90e-4d79-b60f-903130751672")
 			(effects
 				(font
@@ -7289,7 +7307,7 @@
 		)
 		(fp_text user "Released under the Creative Commons Attribution Share-Alike 4.0 License"
 			(at -0.903 -2.167 0)
-			(layer "User.1")
+			(layer "Eco2.User")
 			(uuid "48cc776d-5617-480e-9452-0e8c1949bfa4")
 			(effects
 				(font
@@ -9014,6 +9032,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -9026,6 +9045,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -14640,26 +14660,6 @@
 		(layer "Edge.Cuts")
 		(uuid "dc1c9018-b506-4ca3-8739-238cbe5d9f50")
 	)
-	(gr_line
-		(start 157.657 97.08)
-		(end 157.657 111.66)
-		(stroke
-			(width 0.2032)
-			(type default)
-		)
-		(layer "User.2")
-		(uuid "29e6137f-0baa-43d9-a2f4-8cabe7037576")
-	)
-	(gr_line
-		(start 136.98 96.9)
-		(end 136.98 111.48)
-		(stroke
-			(width 0.2032)
-			(type default)
-		)
-		(layer "User.2")
-		(uuid "5b7afb3d-a312-4a36-bbcb-44b309a2cbbb")
-	)
 	(gr_text "v10"
 		(at 147.431 116.076 0)
 		(layer "B.Cu" knockout)
@@ -14673,21 +14673,9 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "NPTH (NON PLATED THROUGH HOLE) Drills: 1.2mm dia (0.0472 inch dia)\nALL OTHER DRILLS PLATED THROUGH HOLE"
-		(at 189.019 152.406 0)
-		(layer "F.Fab")
-		(uuid "2034fd10-90ff-4441-8402-59c0ad3e941b")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-			(justify left top)
-		)
-	)
 	(gr_text "Layers: 4"
 		(at 189.019 144.164 0)
-		(layer "F.Fab")
+		(layer "Eco1.User")
 		(uuid "3aadf7bd-8d8f-402f-82d4-09fda035b6b3")
 		(effects
 			(font
@@ -14699,7 +14687,7 @@
 	)
 	(gr_text "Outer Copper Weight: 1oz"
 		(at 189.019 148.114 0)
-		(layer "F.Fab")
+		(layer "Eco1.User")
 		(uuid "4a71a778-20de-44f7-98e7-b257e9e88849")
 		(effects
 			(font
@@ -14711,7 +14699,7 @@
 	)
 	(gr_text "Solder Mask: Black"
 		(at 189.019 140.231 0)
-		(layer "F.Fab")
+		(layer "Eco1.User")
 		(uuid "5ae602ab-50cb-456e-8c1d-199bd2bedddb")
 		(effects
 			(font
@@ -14723,7 +14711,7 @@
 	)
 	(gr_text "Inner Copper Weight: 0.5oz"
 		(at 189.019 149.919 0)
-		(layer "F.Fab")
+		(layer "Eco1.User")
 		(uuid "627fe280-b3be-46d7-b980-f6e636013dcb")
 		(effects
 			(font
@@ -14735,7 +14723,7 @@
 	)
 	(gr_text "Ordering Notes:"
 		(at 189.019 137.797 0)
-		(layer "F.Fab")
+		(layer "Eco1.User")
 		(uuid "70346894-6895-437c-a46f-0e7b3119668f")
 		(effects
 			(font
@@ -14747,7 +14735,7 @@
 	)
 	(gr_text "Silkscreen Color: White"
 		(at 189.019 142.262 0)
-		(layer "F.Fab")
+		(layer "Eco1.User")
 		(uuid "7c085f9a-fccb-4f99-aa3e-ec05264cc52e")
 		(effects
 			(font
@@ -14759,7 +14747,7 @@
 	)
 	(gr_text "Finish: Lead-free HASL"
 		(at 189.019 151.897 0)
-		(layer "F.Fab")
+		(layer "Eco1.User")
 		(uuid "8e704d17-912a-41e0-8827-38f7a58b3473")
 		(effects
 			(font
@@ -14771,7 +14759,7 @@
 	)
 	(gr_text "Thickness: 1.6mm"
 		(at 189.019 146.186 0)
-		(layer "F.Fab")
+		(layer "Eco1.User")
 		(uuid "f27a47db-d1a3-40f9-86ac-a6d5423987a7")
 		(effects
 			(font
@@ -14783,15 +14771,15 @@
 	)
 	(dimension
 		(type aligned)
-		(layer "User.1")
+		(layer "Dwgs.User")
 		(uuid "4c4d0b8a-3f28-4133-b4cc-d4e4fbe34ec3")
 		(pts
 			(xy 135.89 91.44) (xy 135.89 116.84)
 		)
 		(height 33.02)
-		(gr_text "1000.00 mils"
+		(gr_text "1 in"
 			(at 101.72 104.14 90)
-			(layer "User.1")
+			(layer "Dwgs.User")
 			(uuid "4c4d0b8a-3f28-4133-b4cc-d4e4fbe34ec3")
 			(effects
 				(font
@@ -14805,28 +14793,26 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 2)
-		)
+			(precision 2) suppress_zeroes)
 		(style
 			(thickness 0.15)
 			(arrow_length 1.27)
 			(text_position_mode 0)
-			(extension_height 0.58642)
+			(extension_height 1.27)
 			(extension_offset 0.5) keep_text_aligned)
 	)
 	(dimension
-		(type orthogonal)
-		(layer "User.1")
-		(uuid "01751648-cbcd-4d9d-9669-6713920ddbf0")
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "caedf73c-ad2d-42e7-922e-1c6a92e52b9c")
 		(pts
-			(xy 142.24 91.728) (xy 134.625 91.44)
+			(xy 152.62 93.082) (xy 152.62 116.84)
 		)
-		(height -10.448)
-		(orientation 0)
-		(gr_text "299.80 mils"
-			(at 130.81 81.28 0)
-			(layer "User.1")
-			(uuid "01751648-cbcd-4d9d-9669-6713920ddbf0")
+		(height -25.18)
+		(gr_text "0.94 in"
+			(at 176.53 105.41 90)
+			(layer "Dwgs.User")
+			(uuid "caedf73c-ad2d-42e7-922e-1c6a92e52b9c")
 			(effects
 				(font
 					(size 1 1)
@@ -14839,101 +14825,33 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 2)
-		)
+			(precision 2) suppress_zeroes)
 		(style
 			(thickness 0.15)
-			(arrow_length -1.27)
+			(arrow_length 1.27)
 			(text_position_mode 2)
 			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
+			(extension_offset 0) keep_text_aligned)
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
-		(uuid "197b18c2-bb06-4441-b181-80cfe60a085a")
-		(pts
-			(xy 143 116.92375) (xy 151.64 116.92375)
-		)
-		(height 16.42625)
-		(orientation 0)
-		(gr_text "340.16 mils"
-			(at 156.21 133.35 0)
-			(layer "User.1")
-			(uuid "197b18c2-bb06-4441-b181-80cfe60a085a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 2)
-		)
-		(style
-			(thickness 0.15)
-			(arrow_length -1.27)
-			(text_position_mode 2)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "User.1")
-		(uuid "1b0a725b-340a-4663-b232-712aa8d6e41b")
-		(pts
-			(xy 151.64 116.91875) (xy 147.32 116.91875)
-		)
-		(height 12.62125)
-		(orientation 0)
-		(gr_text "170.08 mils"
-			(at 156.21 129.54 0)
-			(layer "User.1")
-			(uuid "1b0a725b-340a-4663-b232-712aa8d6e41b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 2)
-		)
-		(style
-			(thickness 0.15)
-			(arrow_length -1.27)
-			(text_position_mode 2)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "User.1")
+		(layer "Dwgs.User")
 		(uuid "1daa8b04-3ddd-40fd-b847-f288f09003ee")
 		(pts
-			(xy 147.32 97.45) (xy 134.62 97.79)
+			(xy 147.32 97.45) (xy 134.62 91.44)
 		)
 		(height -19.98)
 		(orientation 0)
-		(gr_text "500.00 mils"
-			(at 130.81 77.47 0)
-			(layer "User.1")
+		(gr_text "0.5 in"
+			(at 133.35 77.47 0)
+			(layer "Dwgs.User")
 			(uuid "1daa8b04-3ddd-40fd-b847-f288f09003ee")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify right)
 			)
 		)
 		(format
@@ -14941,33 +14859,33 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 2)
-		)
+			(precision 2) suppress_zeroes)
 		(style
 			(thickness 0.15)
-			(arrow_length -1.27)
+			(arrow_length 1.27)
 			(text_position_mode 2)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
+			(extension_height 1.27)
+			(extension_offset 0) keep_text_aligned)
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "Dwgs.User")
 		(uuid "2618724d-f9a9-4405-8fab-160ef7eff093")
 		(pts
 			(xy 158.75 100.33) (xy 158.75 102.87)
 		)
 		(height 10.16)
 		(orientation 1)
-		(gr_text "100.00 mils"
-			(at 168.91 106.68 90)
-			(layer "User.1")
+		(gr_text "0.1 in"
+			(at 168.91 103.269 90)
+			(layer "Dwgs.User")
 			(uuid "2618724d-f9a9-4405-8fab-160ef7eff093")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify right)
 			)
 		)
 		(format
@@ -14975,27 +14893,26 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 2)
-		)
+			(precision 2) suppress_zeroes)
 		(style
 			(thickness 0.15)
-			(arrow_length -1.27)
+			(arrow_length 1.27)
 			(text_position_mode 2)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
+			(extension_height 1.27)
+			(extension_offset 0) keep_text_aligned)
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "Dwgs.User")
 		(uuid "39319a58-5172-4d13-b837-5b7cefd7f114")
 		(pts
 			(xy 134.62 91.44) (xy 160.02 91.44)
 		)
 		(height -33.02)
 		(orientation 0)
-		(gr_text "1000.00 mils"
+		(gr_text "1 in"
 			(at 147.32 57.15 0)
-			(layer "User.1")
+			(layer "Dwgs.User")
 			(uuid "39319a58-5172-4d13-b837-5b7cefd7f114")
 			(effects
 				(font
@@ -15009,27 +14926,26 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 2)
-		)
+			(precision 2) suppress_zeroes)
 		(style
 			(thickness 0.15)
 			(arrow_length 1.27)
 			(text_position_mode 2)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
+			(extension_height 1.27)
+			(extension_offset 0) keep_text_aligned)
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "Dwgs.User")
 		(uuid "3a19074a-5d3c-490b-a401-2924706e383b")
 		(pts
-			(xy 157.48 92.71) (xy 134.62 92.71)
+			(xy 157.48 93.98) (xy 134.62 92.71)
 		)
-		(height -30.48)
+		(height -31.75)
 		(orientation 0)
-		(gr_text "900.00 mils"
+		(gr_text "0.9 in"
 			(at 146.05 61.08 0)
-			(layer "User.1")
+			(layer "Dwgs.User")
 			(uuid "3a19074a-5d3c-490b-a401-2924706e383b")
 			(effects
 				(font
@@ -15043,27 +14959,26 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 2)
-		)
+			(precision 2) suppress_zeroes)
 		(style
 			(thickness 0.15)
 			(arrow_length 1.27)
 			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
+			(extension_height 1.27)
+			(extension_offset 0) keep_text_aligned)
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "Dwgs.User")
 		(uuid "3b643704-24a7-48b4-bf56-92e5c81728ab")
 		(pts
-			(xy 154.94 102.87) (xy 154.94 116.84)
+			(xy 158.75 102.87) (xy 160.02 116.84)
 		)
-		(height 10.16)
+		(height 6.35)
 		(orientation 1)
-		(gr_text "550.00 mils"
+		(gr_text "0.55 in"
 			(at 163.95 109.855 90)
-			(layer "User.1")
+			(layer "Dwgs.User")
 			(uuid "3b643704-24a7-48b4-bf56-92e5c81728ab")
 			(effects
 				(font
@@ -15077,33 +14992,33 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 2)
-		)
+			(precision 2) suppress_zeroes)
 		(style
 			(thickness 0.15)
 			(arrow_length 1.27)
 			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
+			(extension_height 1.27)
+			(extension_offset 0) keep_text_aligned)
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "Dwgs.User")
 		(uuid "616529d3-1f57-4a29-9cdf-86aba9e4a8c0")
 		(pts
 			(xy 137.16 93.98) (xy 134.62 93.98)
 		)
 		(height -5.08)
 		(orientation 0)
-		(gr_text "100.00 mils"
-			(at 130.81 88.9 0)
-			(layer "User.1")
+		(gr_text "0.1 in"
+			(at 133.35 88.9 0)
+			(layer "Dwgs.User")
 			(uuid "616529d3-1f57-4a29-9cdf-86aba9e4a8c0")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify right)
 			)
 		)
 		(format
@@ -15111,27 +15026,26 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 2)
-		)
+			(precision 2) suppress_zeroes)
 		(style
 			(thickness 0.15)
-			(arrow_length -1.27)
+			(arrow_length 1.27)
 			(text_position_mode 2)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
+			(extension_height 1.27)
+			(extension_offset 0) keep_text_aligned)
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "Dwgs.User")
 		(uuid "61fafdcb-886a-4846-b525-960a47273b12")
 		(pts
-			(xy 157.48 93.98) (xy 157.48 116.84)
+			(xy 157.48 93.98) (xy 160.02 116.84)
 		)
 		(height 16.51)
 		(orientation 1)
-		(gr_text "900.00 mils"
+		(gr_text "0.9 in"
 			(at 172.84 105.41 90)
-			(layer "User.1")
+			(layer "Dwgs.User")
 			(uuid "61fafdcb-886a-4846-b525-960a47273b12")
 			(effects
 				(font
@@ -15145,33 +15059,33 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 2)
-		)
+			(precision 2) suppress_zeroes)
 		(style
 			(thickness 0.15)
 			(arrow_length 1.27)
 			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
+			(extension_height 1.27)
+			(extension_offset 0) keep_text_aligned)
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "Dwgs.User")
 		(uuid "6bcb296c-ecf1-411e-b826-afcd24959945")
 		(pts
 			(xy 137.16 93.98) (xy 137.16 91.44)
 		)
 		(height -12.7)
 		(orientation 1)
-		(gr_text "100.00 mils"
-			(at 124.46 97.79 90)
-			(layer "User.1")
+		(gr_text "0.1 in"
+			(at 124.46 95.25 90)
+			(layer "Dwgs.User")
 			(uuid "6bcb296c-ecf1-411e-b826-afcd24959945")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify right)
 			)
 		)
 		(format
@@ -15179,27 +15093,26 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 2)
-		)
+			(precision 2) suppress_zeroes)
 		(style
 			(thickness 0.15)
-			(arrow_length -1.27)
+			(arrow_length 1.27)
 			(text_position_mode 2)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
+			(extension_height 1.27)
+			(extension_offset 0) keep_text_aligned)
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "Dwgs.User")
 		(uuid "6ed27947-ad5d-42dd-be99-9e52f8cbeb60")
 		(pts
-			(xy 152.62 93.082) (xy 134.62 92.71)
+			(xy 152.62 93.082) (xy 134.62 91.44)
 		)
 		(height -23.232)
 		(orientation 0)
-		(gr_text "708.66 mils"
+		(gr_text "0.71 in"
 			(at 143.62 68.7 0)
-			(layer "User.1")
+			(layer "Dwgs.User")
 			(uuid "6ed27947-ad5d-42dd-be99-9e52f8cbeb60")
 			(effects
 				(font
@@ -15213,27 +15126,26 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 2)
-		)
+			(precision 2) suppress_zeroes)
 		(style
 			(thickness 0.15)
 			(arrow_length 1.27)
 			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
+			(extension_height 1.27)
+			(extension_offset 0) keep_text_aligned)
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "Dwgs.User")
 		(uuid "79f01460-0a2d-4c91-9d9d-c9f641615bca")
 		(pts
-			(xy 154.52 93.45) (xy 134.62 93.98)
+			(xy 154.52 91.44) (xy 134.62 93.98)
 		)
-		(height -27.41)
+		(height -25.4)
 		(orientation 0)
-		(gr_text "783.46 mils"
+		(gr_text "0.78 in"
 			(at 144.57 64.89 0)
-			(layer "User.1")
+			(layer "Dwgs.User")
 			(uuid "79f01460-0a2d-4c91-9d9d-c9f641615bca")
 			(effects
 				(font
@@ -15247,27 +15159,60 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 2)
-		)
+			(precision 2) suppress_zeroes)
 		(style
 			(thickness 0.15)
 			(arrow_length 1.27)
 			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
+			(extension_height 1.27)
+			(extension_offset 0) keep_text_aligned)
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "Dwgs.User")
+		(uuid "7d682848-51ad-46ba-be27-c9b714342e99")
+		(pts
+			(xy 142.235 92.998) (xy 134.62 92.998)
+		)
+		(height -11.718)
+		(orientation 0)
+		(gr_text "0.3 in"
+			(at 133.35 81.28 0)
+			(layer "Dwgs.User")
+			(uuid "7d682848-51ad-46ba-be27-c9b714342e99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 2) suppress_zeroes)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 2)
+			(extension_height 0.58642)
+			(extension_offset 0) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
 		(uuid "809791f7-22fe-444f-b2a9-57e089c65338")
 		(pts
-			(xy 147.32 109.22375) (xy 134.62 109.22)
+			(xy 147.32 111.76) (xy 134.62 116.84)
 		)
-		(height 16.50625)
+		(height 20.32)
 		(orientation 0)
-		(gr_text "500.00 mils"
-			(at 139.7 124.46 0)
-			(layer "User.1")
+		(gr_text "0.5 in"
+			(at 140.97 130.81 0)
+			(layer "Dwgs.User")
 			(uuid "809791f7-22fe-444f-b2a9-57e089c65338")
 			(effects
 				(font
@@ -15281,33 +15226,33 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 2)
-		)
+			(precision 2) suppress_zeroes)
 		(style
 			(thickness 0.15)
 			(arrow_length 1.27)
 			(text_position_mode 2)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
+			(extension_height 1.27)
+			(extension_offset 0) keep_text_aligned)
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "Dwgs.User")
 		(uuid "8175bf86-df9e-48f9-9c47-32a7549c7945")
 		(pts
 			(xy 135.89 107.95) (xy 135.89 110.49)
 		)
 		(height -17.78)
 		(orientation 1)
-		(gr_text "100.00 mils"
-			(at 118.11 104.14 90)
-			(layer "User.1")
+		(gr_text "0.1 in"
+			(at 118.11 106.68 90)
+			(layer "Dwgs.User")
 			(uuid "8175bf86-df9e-48f9-9c47-32a7549c7945")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify left)
 			)
 		)
 		(format
@@ -15315,33 +15260,33 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 2)
-		)
+			(precision 2) suppress_zeroes)
 		(style
 			(thickness 0.15)
-			(arrow_length -1.27)
+			(arrow_length 1.27)
 			(text_position_mode 2)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
+			(extension_height 1.27)
+			(extension_offset 0) keep_text_aligned)
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "Dwgs.User")
 		(uuid "878d5681-9d6f-42f0-bd1b-3e88ab77f00d")
 		(pts
 			(xy 135.89 110.49) (xy 135.89 116.84)
 		)
 		(height -21.59)
 		(orientation 1)
-		(gr_text "250.00 mils"
-			(at 114.3 106.68 90)
-			(layer "User.1")
+		(gr_text "0.25 in"
+			(at 114.3 118.11 90)
+			(layer "Dwgs.User")
 			(uuid "878d5681-9d6f-42f0-bd1b-3e88ab77f00d")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify right)
 			)
 		)
 		(format
@@ -15349,33 +15294,33 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 2)
-		)
+			(precision 2) suppress_zeroes)
 		(style
 			(thickness 0.15)
-			(arrow_length -1.27)
+			(arrow_length 1.27)
 			(text_position_mode 2)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
+			(extension_height 1.27)
+			(extension_offset 0) keep_text_aligned)
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "Dwgs.User")
 		(uuid "9470bf3a-90f0-46b4-a2f6-2d62c7eb4c64")
 		(pts
 			(xy 137.16 114.3) (xy 137.16 116.84)
 		)
 		(height -15.24)
 		(orientation 1)
-		(gr_text "100.00 mils"
-			(at 121.92 120.65 90)
-			(layer "User.1")
+		(gr_text "0.1 in"
+			(at 121.92 118.11 90)
+			(layer "Dwgs.User")
 			(uuid "9470bf3a-90f0-46b4-a2f6-2d62c7eb4c64")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify right)
 			)
 		)
 		(format
@@ -15383,33 +15328,33 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 2)
-		)
+			(precision 2) suppress_zeroes)
 		(style
 			(thickness 0.15)
-			(arrow_length -1.27)
+			(arrow_length 1.27)
 			(text_position_mode 2)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
+			(extension_height 1.27)
+			(extension_offset 0) keep_text_aligned)
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "Dwgs.User")
 		(uuid "9c5f1104-5f47-4617-b5be-77c8ff6059ee")
 		(pts
-			(xy 140.12 94.15) (xy 134.62 93.98)
+			(xy 140.12 91.44) (xy 134.62 93.98)
 		)
-		(height -9.06)
+		(height -6.35)
 		(orientation 0)
-		(gr_text "216.54 mils"
-			(at 130.81 85.09 0)
-			(layer "User.1")
+		(gr_text "0.22 in"
+			(at 133.35 85.09 0)
+			(layer "Dwgs.User")
 			(uuid "9c5f1104-5f47-4617-b5be-77c8ff6059ee")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify right)
 			)
 		)
 		(format
@@ -15417,33 +15362,67 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 2)
-		)
+			(precision 2) suppress_zeroes)
 		(style
 			(thickness 0.15)
-			(arrow_length -1.27)
+			(arrow_length 1.27)
 			(text_position_mode 2)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
+			(extension_height 1.27)
+			(extension_offset 0) keep_text_aligned)
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "Dwgs.User")
+		(uuid "a564d8ec-21cc-42d0-bd9e-3fa3317cd71b")
+		(pts
+			(xy 140.97 115.57) (xy 134.62 116.84)
+		)
+		(height 8.89)
+		(orientation 0)
+		(gr_text "0.25 in"
+			(at 133.637216 124.46 0)
+			(layer "Dwgs.User")
+			(uuid "a564d8ec-21cc-42d0-bd9e-3fa3317cd71b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 2) suppress_zeroes)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 2)
+			(extension_height 0.58642)
+			(extension_offset 0) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
 		(uuid "aaa79dfc-b41a-4729-84ff-d92b6553bd80")
 		(pts
-			(xy 137.16 114.3) (xy 134.62 114.3)
+			(xy 137.16 114.3) (xy 134.62 116.84)
 		)
 		(height 6.35)
 		(orientation 0)
-		(gr_text "100.00 mils"
-			(at 130.81 120.65 0)
-			(layer "User.1")
+		(gr_text "0.1 in"
+			(at 133.35 120.65 0)
+			(layer "Dwgs.User")
 			(uuid "aaa79dfc-b41a-4729-84ff-d92b6553bd80")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify right)
 			)
 		)
 		(format
@@ -15451,67 +15430,33 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 2)
-		)
+			(precision 2) suppress_zeroes)
 		(style
 			(thickness 0.15)
-			(arrow_length -1.27)
+			(arrow_length 1.27)
 			(text_position_mode 2)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
+			(extension_height 1.27)
+			(extension_offset 0) keep_text_aligned)
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
-		(uuid "b22c83ce-00ea-47a0-82e8-ac018392a2b3")
-		(pts
-			(xy 134.62 116.84) (xy 140.97 115.57)
-		)
-		(height -8.89)
-		(orientation 1)
-		(gr_text "50.00 mils"
-			(at 125.73 120.65 90)
-			(layer "User.1")
-			(uuid "b22c83ce-00ea-47a0-82e8-ac018392a2b3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 2)
-		)
-		(style
-			(thickness 0.15)
-			(arrow_length -1.27)
-			(text_position_mode 2)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "User.1")
+		(layer "Dwgs.User")
 		(uuid "b33239bc-e0b5-4582-bbcf-aae6ad48dd92")
 		(pts
-			(xy 144.52 90.69) (xy 150.12 90.69)
+			(xy 144.52 91.44) (xy 150.12 91.44)
 		)
-		(height -17.03)
+		(height -17.78)
 		(orientation 0)
-		(gr_text "220.47 mils"
-			(at 140.97 73.66 0)
-			(layer "User.1")
+		(gr_text "0.22 in"
+			(at 143.51 73.66 0)
+			(layer "Dwgs.User")
 			(uuid "b33239bc-e0b5-4582-bbcf-aae6ad48dd92")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify right)
 			)
 		)
 		(format
@@ -15519,27 +15464,59 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 2)
-		)
+			(precision 2) suppress_zeroes)
 		(style
 			(thickness 0.15)
-			(arrow_length -1.27)
+			(arrow_length 1.27)
 			(text_position_mode 2)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
+			(extension_height 1.27)
+			(extension_offset 0) keep_text_aligned)
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "Dwgs.User")
+		(uuid "ca7550f2-fd7f-4e8f-9b5d-df8eb4409030")
+		(pts
+			(xy 134.62 116.84) (xy 151.64 116.84)
+		)
+		(height 19.05)
+		(orientation 0)
+		(gr_text "0.67 in"
+			(at 143.51 134.62 0)
+			(layer "Dwgs.User")
+			(uuid "ca7550f2-fd7f-4e8f-9b5d-df8eb4409030")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 2) suppress_zeroes)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 2)
+			(extension_height 0.58642)
+			(extension_offset 0) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
 		(uuid "cebf498c-3ba5-42d6-a816-8df71a99e97c")
 		(pts
 			(xy 142.235 92.998) (xy 142.24 116.84)
 		)
 		(height -35.555)
 		(orientation 1)
-		(gr_text "938.66 mils"
+		(gr_text "0.94 in"
 			(at 105.53 104.919 90)
-			(layer "User.1")
+			(layer "Dwgs.User")
 			(uuid "cebf498c-3ba5-42d6-a816-8df71a99e97c")
 			(effects
 				(font
@@ -15553,27 +15530,26 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 2)
-		)
+			(precision 2) suppress_zeroes)
 		(style
 			(thickness 0.15)
 			(arrow_length 1.27)
 			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
+			(extension_height 1.27)
+			(extension_offset 0) keep_text_aligned)
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "Dwgs.User")
 		(uuid "d068077e-ab79-408e-b7ff-bc58104bc1b6")
 		(pts
 			(xy 137.16 93.98) (xy 137.16 116.84)
 		)
 		(height -26.67)
 		(orientation 1)
-		(gr_text "900.00 mils"
+		(gr_text "0.9 in"
 			(at 109.34 105.41 90)
-			(layer "User.1")
+			(layer "Dwgs.User")
 			(uuid "d068077e-ab79-408e-b7ff-bc58104bc1b6")
 			(effects
 				(font
@@ -15587,33 +15563,33 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 2)
-		)
+			(precision 2) suppress_zeroes)
 		(style
 			(thickness 0.15)
 			(arrow_length 1.27)
 			(text_position_mode 0)
-			(extension_height 0.58642)
+			(extension_height 1.27)
 			(extension_offset 0.5) keep_text_aligned)
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "Dwgs.User")
 		(uuid "f07413b3-1dc6-44a0-b5f2-304436fad048")
 		(pts
 			(xy 140.97 113.03) (xy 140.97 116.84)
 		)
 		(height -22.86)
 		(orientation 1)
-		(gr_text "150.00 mils"
-			(at 118.11 120.65 90)
-			(layer "User.1")
+		(gr_text "0.15 in"
+			(at 118.11 118.11 90)
+			(layer "Dwgs.User")
 			(uuid "f07413b3-1dc6-44a0-b5f2-304436fad048")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify right)
 			)
 		)
 		(format
@@ -15621,14 +15597,47 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 2)
-		)
+			(precision 2) suppress_zeroes)
 		(style
 			(thickness 0.15)
-			(arrow_length -1.27)
+			(arrow_length 1.27)
+			(text_position_mode 2)
+			(extension_height 1.27)
+			(extension_offset 0) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "fbb9d818-d8a9-4de1-8d7d-fd68dafd005f")
+		(pts
+			(xy 143 116.354) (xy 134.62 118.439)
+		)
+		(height 11.916)
+		(orientation 0)
+		(gr_text "0.33 in"
+			(at 133.35 128.27 0)
+			(layer "Dwgs.User")
+			(uuid "fbb9d818-d8a9-4de1-8d7d-fd68dafd005f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 2) suppress_zeroes)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
 			(text_position_mode 2)
 			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
+			(extension_offset 0) keep_text_aligned)
 	)
 	(via
 		(at 134.985 114.564)
@@ -18568,8 +18577,8 @@
 				(xy 149.191453 98.094547) (xy 149.250431 98.133955) (xy 149.302439 98.1443) (xy 150.830684 98.144299)
 				(xy 150.853434 98.147294) (xy 150.943775 98.171501) (xy 151.049607 98.171501) (xy 151.049623 98.1715)
 				(xy 157.636493 98.1715) (xy 157.692994 98.192065) (xy 157.715176 98.220217) (xy 157.7953 98.381125)
-				(xy 157.920174 98.546486) (xy 158.011584 98.629818) (xy 158.073305 98.686084) (xy 158.073314 98.68609)
-				(xy 158.149056 98.732987) (xy 158.249485 98.79517) (xy 158.442707 98.870024) (xy 158.442711 98.870024)
+				(xy 157.920174 98.546486) (xy 157.98601 98.606503) (xy 158.073305 98.686084) (xy 158.073314 98.68609)
+				(xy 158.165051 98.742891) (xy 158.249485 98.79517) (xy 158.442707 98.870024) (xy 158.442711 98.870024)
 				(xy 158.442715 98.870026) (xy 158.551601 98.89038) (xy 158.646393 98.9081) (xy 158.646394 98.9081)
 				(xy 158.853606 98.9081) (xy 158.853607 98.9081) (xy 158.988741 98.882838) (xy 159.057284 98.870026)
 				(xy 159.057286 98.870025) (xy 159.057293 98.870024) (xy 159.250515 98.79517) (xy 159.426692 98.686086)
@@ -19098,20 +19107,30 @@
 				(xy 154.025894 102.0417) (xy 153.894106 102.0417) (xy 153.894101 102.0417) (xy 153.767657 102.078829)
 				(xy 153.767653 102.07883) (xy 153.656794 102.150075) (xy 153.656789 102.15008) (xy 153.570489 102.249674)
 				(xy 153.515742 102.369554) (xy 153.51574 102.36956) (xy 153.496987 102.499996) (xy 147.029763 102.499996)
-				(xy 149.810714 99.719045) (xy 149.865208 99.693634) (xy 149.872869 99.6933) (xy 151.687792 99.6933)
-				(xy 151.687793 99.6933) (xy 151.732622 99.681287) (xy 151.765438 99.672495) (xy 151.765438 99.672494)
-				(xy 151.765441 99.672494) (xy 151.835058 99.6323) (xy 151.8919 99.575458) (xy 151.932094 99.505841)
-				(xy 151.939849 99.476901) (xy 152.1556 99.476901) (xy 152.1556 100.043012) (xy 152.167389 100.102282)
-				(xy 152.16739 100.102285) (xy 152.2123 100.169497) (xy 152.212302 100.169499) (xy 152.279514 100.214409)
-				(xy 152.279517 100.21441) (xy 152.338788 100.2262) (xy 152.600099 100.2262) (xy 152.6001 100.226199)
-				(xy 152.6001 99.476901) (xy 152.7779 99.476901) (xy 152.7779 100.226199) (xy 152.777901 100.2262)
-				(xy 153.039212 100.2262) (xy 153.098482 100.21441) (xy 153.098485 100.214409) (xy 153.165697 100.169499)
-				(xy 153.165699 100.169497) (xy 153.210609 100.102285) (xy 153.21061 100.102282) (xy 153.2224 100.043012)
-				(xy 153.2224 99.476901) (xy 153.222399 99.4769) (xy 152.777901 99.4769) (xy 152.7779 99.476901)
-				(xy 152.6001 99.476901) (xy 152.600099 99.4769) (xy 152.155601 99.4769) (xy 152.1556 99.476901)
-				(xy 151.939849 99.476901) (xy 151.9529 99.428193) (xy 151.9529 99.347807) (xy 151.932094 99.270159)
-				(xy 151.8919 99.200542) (xy 151.835058 99.1437) (xy 151.781948 99.113036) (xy 151.765438 99.103504)
-				(xy 151.687793 99.0827) (xy 149.669807 99.0827) (xy 149.612964 99.097931) (xy 149.592159 99.103505)
+				(xy 149.810714 99.719045) (xy 149.865208 99.693634) (xy 149.872869 99.6933) (xy 151.051201 99.6933)
+				(xy 151.107702 99.713865) (xy 151.137766 99.765936) (xy 151.139101 99.7812) (xy 151.139101 100.040565)
+				(xy 151.149443 100.092565) (xy 151.149443 100.092566) (xy 151.149444 100.092568) (xy 151.149445 100.092569)
+				(xy 151.188853 100.151547) (xy 151.247831 100.190955) (xy 151.299839 100.2013) (xy 151.99536 100.201299)
+				(xy 151.995363 100.201299) (xy 151.995365 100.201298) (xy 152.047365 100.190956) (xy 152.047365 100.190955)
+				(xy 152.047369 100.190955) (xy 152.099121 100.156375) (xy 152.157522 100.142083) (xy 152.204993 100.164852)
+				(xy 152.205103 100.164689) (xy 152.206248 100.165454) (xy 152.210109 100.167306) (xy 152.212302 100.169499)
+				(xy 152.279514 100.214409) (xy 152.279517 100.21441) (xy 152.338788 100.2262) (xy 152.600099 100.2262)
+				(xy 152.6001 100.226199) (xy 152.6001 99.476901) (xy 152.7779 99.476901) (xy 152.7779 100.226199)
+				(xy 152.777901 100.2262) (xy 153.039212 100.2262) (xy 153.098482 100.21441) (xy 153.098485 100.214409)
+				(xy 153.165697 100.169499) (xy 153.165699 100.169497) (xy 153.210609 100.102285) (xy 153.21061 100.102282)
+				(xy 153.2224 100.043012) (xy 153.2224 99.476901) (xy 153.222399 99.4769) (xy 152.777901 99.4769)
+				(xy 152.7779 99.476901) (xy 152.6001 99.476901) (xy 152.6001 98.549801) (xy 152.7779 98.549801)
+				(xy 152.7779 99.299099) (xy 152.777901 99.2991) (xy 153.222399 99.2991) (xy 153.2224 99.299099)
+				(xy 153.2224 98.732987) (xy 153.21061 98.673717) (xy 153.210609 98.673714) (xy 153.165699 98.606502)
+				(xy 153.165697 98.6065) (xy 153.098485 98.56159) (xy 153.098482 98.561589) (xy 153.039212 98.5498)
+				(xy 152.777901 98.5498) (xy 152.7779 98.549801) (xy 152.6001 98.549801) (xy 152.600099 98.5498)
+				(xy 152.338788 98.5498) (xy 152.279517 98.561589) (xy 152.279514 98.56159) (xy 152.212297 98.606503)
+				(xy 152.210105 98.608696) (xy 152.206503 98.610375) (xy 152.205103 98.611311) (xy 152.204958 98.611095)
+				(xy 152.15561 98.634104) (xy 152.09912 98.619624) (xy 152.047369 98.585045) (xy 151.995361 98.5747)
+				(xy 151.995359 98.5747) (xy 151.299836 98.5747) (xy 151.299834 98.574701) (xy 151.247834 98.585043)
+				(xy 151.247833 98.585043) (xy 151.188854 98.624452) (xy 151.188852 98.624454) (xy 151.149445 98.683431)
+				(xy 151.1391 98.73544) (xy 151.1391 98.9948) (xy 151.118535 99.051301) (xy 151.066464 99.081365)
+				(xy 151.0512 99.0827) (xy 149.669807 99.0827) (xy 149.612964 99.097931) (xy 149.592159 99.103505)
 				(xy 149.522543 99.143698) (xy 146.531286 102.134955) (xy 146.476792 102.160366) (xy 146.469131 102.1607)
 				(xy 145.586199 102.1607) (xy 145.529698 102.140135) (xy 145.499634 102.088064) (xy 145.498299 102.0728)
 				(xy 145.498299 101.848436) (xy 145.498298 101.848434) (xy 145.487956 101.796434) (xy 145.487956 101.796433)
@@ -19133,23 +19152,14 @@
 				(xy 147.548556 100.5877) (xy 147.568073 100.583818) (xy 147.568074 100.583817) (xy 147.568082 100.583816)
 				(xy 147.722863 100.519703) (xy 147.862162 100.426626) (xy 147.980626 100.308162) (xy 148.073703 100.168863)
 				(xy 148.137816 100.014082) (xy 148.138222 100.012044) (xy 148.155662 99.924365) (xy 148.1705 99.849767)
-				(xy 148.1705 99.682233) (xy 148.159801 99.628446) (xy 148.137818 99.517926) (xy 148.137817 99.517923)
-				(xy 148.137816 99.517918) (xy 148.073703 99.363137) (xy 147.980626 99.223838) (xy 147.862162 99.105374)
-				(xy 147.722863 99.012297) (xy 147.568082 98.948184) (xy 147.568079 98.948183) (xy 147.568073 98.948181)
-				(xy 147.444424 98.923587) (xy 147.403767 98.9155) (xy 147.236233 98.9155) (xy 147.200052 98.922696)
-				(xy 147.071926 98.948181) (xy 147.071918 98.948184) (xy 146.917137 99.012297) (xy 146.77784 99.105372)
-				(xy 146.659372 99.22384) (xy 146.566297 99.363137) (xy 146.502184 99.517918) (xy 146.502181 99.517926)
-				(xy 146.479432 99.6323) (xy 146.4695 99.682233) (xy 141.773052 99.682233) (xy 142.342251 99.113035)
-				(xy 142.402508 99.008666) (xy 142.4337 98.892257) (xy 142.4337 98.771742) (xy 142.4337 98.742891)
-				(xy 142.437305 98.732987) (xy 152.1556 98.732987) (xy 152.1556 99.299099) (xy 152.155601 99.2991)
-				(xy 152.600099 99.2991) (xy 152.6001 99.299099) (xy 152.6001 98.549801) (xy 152.7779 98.549801)
-				(xy 152.7779 99.299099) (xy 152.777901 99.2991) (xy 153.222399 99.2991) (xy 153.2224 99.299099)
-				(xy 153.2224 98.732987) (xy 153.21061 98.673717) (xy 153.210609 98.673714) (xy 153.165699 98.606502)
-				(xy 153.165697 98.6065) (xy 153.098485 98.56159) (xy 153.098482 98.561589) (xy 153.039212 98.5498)
-				(xy 152.777901 98.5498) (xy 152.7779 98.549801) (xy 152.6001 98.549801) (xy 152.600099 98.5498)
-				(xy 152.338788 98.5498) (xy 152.279517 98.561589) (xy 152.279514 98.56159) (xy 152.212302 98.6065)
-				(xy 152.2123 98.606502) (xy 152.16739 98.673714) (xy 152.167389 98.673717) (xy 152.1556 98.732987)
-				(xy 142.437305 98.732987) (xy 142.454265 98.68639) (xy 142.472766 98.669805) (xy 142.482283 98.663446)
+				(xy 148.1705 99.682233) (xy 148.137816 99.517918) (xy 148.073703 99.363137) (xy 147.980626 99.223838)
+				(xy 147.862162 99.105374) (xy 147.722863 99.012297) (xy 147.568082 98.948184) (xy 147.568079 98.948183)
+				(xy 147.568073 98.948181) (xy 147.444424 98.923587) (xy 147.403767 98.9155) (xy 147.236233 98.9155)
+				(xy 147.200052 98.922696) (xy 147.071926 98.948181) (xy 147.071918 98.948184) (xy 146.917137 99.012297)
+				(xy 146.77784 99.105372) (xy 146.659372 99.22384) (xy 146.566297 99.363137) (xy 146.502184 99.517918)
+				(xy 146.502181 99.517926) (xy 146.473543 99.661904) (xy 146.4695 99.682233) (xy 141.773052 99.682233)
+				(xy 142.342251 99.113035) (xy 142.402508 99.008666) (xy 142.4337 98.892257) (xy 142.4337 98.771742)
+				(xy 142.4337 98.742891) (xy 142.454265 98.68639) (xy 142.472766 98.669805) (xy 142.482283 98.663446)
 				(xy 142.519547 98.638547) (xy 142.558955 98.579569) (xy 142.5693 98.527561) (xy 142.569299 97.86244)
 				(xy 142.569299 97.862439) (xy 142.569299 97.862436) (xy 142.569298 97.862434) (xy 142.558956 97.810434)
 				(xy 142.558956 97.810433) (xy 142.545303 97.79) (xy 142.519547 97.751453) (xy 142.460569 97.712045)
@@ -19164,15 +19174,16 @@
 				(xy 136.197296 99.249977) (xy 136.197284 99.249973) (xy 135.993609 99.2119) (xy 135.993607 99.2119)
 				(xy 135.786393 99.2119) (xy 135.78639 99.2119) (xy 135.582715 99.249973) (xy 135.582703 99.249977)
 				(xy 135.389488 99.324828) (xy 135.389482 99.324831) (xy 135.213314 99.433909) (xy 135.213305 99.433915)
-				(xy 135.060173 99.573515) (xy 134.935302 99.738871) (xy 134.842936 99.924366) (xy 134.842934 99.924371)
-				(xy 134.792444 100.101823) (xy 134.757202 100.150539) (xy 134.698891 100.165205) (xy 134.644795 100.138958)
-				(xy 134.620227 100.084079) (xy 134.62 100.077768) (xy 134.62 98.133218) (xy 134.640565 98.076717)
-				(xy 134.692636 98.046653) (xy 134.75185 98.057094) (xy 134.790499 98.103154) (xy 134.792444 98.109163)
-				(xy 134.819616 98.204664) (xy 134.914039 98.394291) (xy 135.041691 98.563329) (xy 135.041695 98.563333)
-				(xy 135.198235 98.70604) (xy 135.198244 98.706046) (xy 135.378333 98.817552) (xy 135.378347 98.817558)
-				(xy 135.575859 98.894075) (xy 135.575873 98.894079) (xy 135.78408 98.932999) (xy 135.784086 98.933)
-				(xy 135.801099 98.933) (xy 135.8011 98.932999) (xy 135.8011 98.292099) (xy 135.82312 98.298) (xy 135.95688 98.298)
-				(xy 135.9789 98.292099) (xy 135.9789 98.932999) (xy 135.978901 98.933) (xy 135.995914 98.933) (xy 135.995919 98.932999)
+				(xy 135.060173 99.573515) (xy 134.935302 99.738871) (xy 134.9353 99.738874) (xy 134.9353 99.738875)
+				(xy 134.914225 99.7812) (xy 134.842936 99.924366) (xy 134.842934 99.924371) (xy 134.792444 100.101823)
+				(xy 134.757202 100.150539) (xy 134.698891 100.165205) (xy 134.644795 100.138958) (xy 134.620227 100.084079)
+				(xy 134.62 100.077768) (xy 134.62 98.133218) (xy 134.640565 98.076717) (xy 134.692636 98.046653)
+				(xy 134.75185 98.057094) (xy 134.790499 98.103154) (xy 134.792444 98.109163) (xy 134.819616 98.204664)
+				(xy 134.914039 98.394291) (xy 135.041691 98.563329) (xy 135.041695 98.563333) (xy 135.198235 98.70604)
+				(xy 135.198244 98.706046) (xy 135.378333 98.817552) (xy 135.378347 98.817558) (xy 135.575859 98.894075)
+				(xy 135.575873 98.894079) (xy 135.78408 98.932999) (xy 135.784086 98.933) (xy 135.801099 98.933)
+				(xy 135.8011 98.932999) (xy 135.8011 98.292099) (xy 135.82312 98.298) (xy 135.95688 98.298) (xy 135.9789 98.292099)
+				(xy 135.9789 98.932999) (xy 135.978901 98.933) (xy 135.995914 98.933) (xy 135.995919 98.932999)
 				(xy 136.204126 98.894079) (xy 136.20414 98.894075) (xy 136.401652 98.817558) (xy 136.401666 98.817552)
 				(xy 136.581755 98.706046) (xy 136.581764 98.70604) (xy 136.738304 98.563333) (xy 136.738308 98.563329)
 				(xy 136.761214 98.532996) (xy 138.041987 98.532996) (xy 138.041987 98.533003) (xy 138.06074 98.663439)
