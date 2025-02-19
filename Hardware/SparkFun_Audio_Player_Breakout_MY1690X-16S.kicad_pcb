@@ -16,8 +16,8 @@
 	)
 	(layers
 		(0 "F.Cu" signal)
-		(1 "In1.Cu" mixed)
-		(2 "In2.Cu" power)
+		(1 "In1.Cu" signal "L2.Cu")
+		(2 "In2.Cu" signal "L3.Cu")
 		(31 "B.Cu" signal)
 		(34 "B.Paste" user)
 		(35 "F.Paste" user)
@@ -26,7 +26,7 @@
 		(38 "B.Mask" user)
 		(39 "F.Mask" user)
 		(40 "Dwgs.User" user "Measures")
-		(41 "Cmts.User" user "Design.Info")
+		(41 "Cmts.User" user "V-score")
 		(42 "Eco1.User" user "Fab.Info")
 		(43 "Eco2.User" user "License.Info")
 		(44 "Edge.Cuts" user)
@@ -36,16 +36,16 @@
 		(48 "B.Fab" user "B.Outlines")
 		(49 "F.Fab" user "F.Outlines")
 		(50 "User.1" user "Milling")
-		(51 "User.2" user "Board.Props")
-		(52 "User.3" user "Selective.Solder")
-		(53 "User.4" user "Enclosure.Info")
+		(51 "User.2" user "Design.Info")
+		(52 "User.3" user "Board.Properties")
+		(53 "User.4" user "Selective.Solder")
+		(54 "User.5" user "Enclosure.Info")
 	)
 	(setup
 		(stackup
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
 				(color "#FFFFFFFF")
-				(material "Liquid Photo")
 			)
 			(layer "F.Paste"
 				(type "Top Solder Paste")
@@ -54,9 +54,6 @@
 				(type "Top Solder Mask")
 				(color "#E0311DD4")
 				(thickness 0.01)
-				(material "Epoxy")
-				(epsilon_r 3.3)
-				(loss_tangent 0)
 			)
 			(layer "F.Cu"
 				(type "copper")
@@ -107,7 +104,7 @@
 				(type "Bottom Silk Screen")
 				(color "#FFFFFFFF")
 			)
-			(copper_finish "ENIG")
+			(copper_finish "None")
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0.05)
@@ -2276,7 +2273,7 @@
 		)
 		(fp_arc
 			(start 1.5653 -5.257777)
-			(mid 1.834722 -5.146216)
+			(mid 1.834725 -5.146217)
 			(end 1.9463 -4.8768)
 			(stroke
 				(width 0.2032)
@@ -14659,16 +14656,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "dc1c9018-b506-4ca3-8739-238cbe5d9f50")
-	)
-	(gr_line
-		(start 147.82 111.3185)
-		(end 147.82 107.6015)
-		(stroke
-			(width 0.1778)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "85738f64-f13f-4f23-811d-7acc061ac9fa")
 	)
 	(gr_text "v10"
 		(at 147.431 116.076 0)
