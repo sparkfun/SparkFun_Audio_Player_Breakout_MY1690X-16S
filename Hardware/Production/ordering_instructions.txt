@@ -1,0 +1,11 @@
+Ordering Instructions:
+Panel dimensions: 116.80 x 173.18 mm.
+Solder Mask: Red
+Silkscreen Color: White
+Layers: 4
+Finish: Lead-free HASL
+Thickness: 1.6mm
+Outer Copper Weight: 1oz
+Inner Copper Weight: 0.5oz
+Minimum track width: 0.25mm (9.70mil)
+Minimum via drill: 0.30mm (11.81mil)

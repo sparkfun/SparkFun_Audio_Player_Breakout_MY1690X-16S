@@ -1,0 +1,13 @@
+2025-02-19 11:20:24,601 - panelizer_logger - INFO - Running Panelizer
+2025-02-19 11:20:24,603 - panelizer_logger - INFO - ['--panelx', '114.300000', '--panely', '165.100000', '--smaller', '--vscorelayer', 'User.Comments', '--vscoretextlayer', 'User.Comments', '--gapx', '0.000000', '--gapy', '5.080000', '--hrail', '6.35', '--vrail', '6.35', '--fiducialpos', '0.25', '--fiducialslr']
+2025-02-19 11:20:24,605 - panelizer_logger - INFO - PANELIZER START: 2025-02-19T11:20:24.605109
+2025-02-19 11:20:34,355 - panelizer_logger - INFO - 
+START: 2025-02-19T11:20:24.605109
+Board saved by user.
+Zones filled by user.
+
+Board: C:\Users\pete.lewis\Documents\GitHub\SparkFun_Audio_Player_Breakout_MY1690X-16S\Hardware\Production\SparkFun_Audio_Player_Breakout_MY1690X-16S_panelized.kicad_pcb
+Board dimensions: 25.40 x 25.40 mm.
+You can fit 4 x 5 boards on the panel.
+
+2025-02-19 11:20:41,773 - panelizer_logger - INFO - Panelizer complete
