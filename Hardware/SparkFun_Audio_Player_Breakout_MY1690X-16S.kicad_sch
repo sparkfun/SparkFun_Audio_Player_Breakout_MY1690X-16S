@@ -8821,7 +8821,7 @@
 		)
 		(uuid "c9707447-02dc-4ca9-8627-07024258f3a5")
 	)
-	(text "USB D+\\D- Trace Calculations:\nCu Thickness (1 oz.): 0.035mm\nBoard Thickness: 1.6mm\nEr (7628): 4.4\nTrace Width: 0.25mm (9.7mils)\nSpace: 0.18mm (7mils)\nDielectric Thickness: 0.18mm (7.1mils)\nTarget Impedance: 90 Ohm\nActual Impedance: 90.087 Ohm\n"
+	(text "USB D+\\D- Trace Calculations:\nCu Thickness (1 oz.): 0.035mm\nBoard Thickness: 1.6mm\nEr (7628): 4.4\nTrace Width: 0.28mm (10.9mils)\nSpace: 0.18mm (7mils)\nDielectric Thickness: 0.21mm (8.28mils)\nTarget Impedance: 90 Ohm\nActual Impedance: 90.18 Ohm\n"
 		(exclude_from_sim no)
 		(at 36.83 88.9 0)
 		(effects
