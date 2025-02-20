@@ -14742,10 +14742,34 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Controlled Impedance: No"
+		(at 188.95 153.653 0)
+		(layer "Eco1.User")
+		(uuid "89be5bfb-8a8b-41e7-a4fc-c788367c7cec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Finish: Lead-free HASL"
 		(at 189.019 151.897 0)
 		(layer "Eco1.User")
 		(uuid "8e704d17-912a-41e0-8827-38f7a58b3473")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Material: TG135-140"
+		(at 189.019 155.476 0)
+		(layer "Eco1.User")
+		(uuid "b9d00dfb-8384-4368-aad9-de78752ade25")
 		(effects
 			(font
 				(size 1.27 1.27)
