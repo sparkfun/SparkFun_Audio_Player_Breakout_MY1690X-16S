@@ -1,8 +1,8 @@
-2025-02-19 12:52:28,341 - cammer_logger - INFO - Running CAMmer
-2025-02-19 12:52:28,342 - cammer_logger - INFO - ['-l', 'F.Cu,In1.Cu,In2.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask', '-e', 'Edge.Cuts,User.Comments']
-2025-02-19 12:52:28,343 - cammer_logger - INFO - CAMMER START: 2025-02-19T12:52:28.343078
-2025-02-19 12:52:30,795 - cammer_logger - INFO - 
-START: 2025-02-19T12:52:28.343078
+2025-02-20 09:02:11,916 - cammer_logger - INFO - Running CAMmer
+2025-02-20 09:02:11,916 - cammer_logger - INFO - ['-l', 'F.Cu,In1.Cu,In2.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask', '-e', 'Edge.Cuts,User.Comments']
+2025-02-20 09:02:11,916 - cammer_logger - INFO - CAMMER START: 2025-02-20T09:02:11.916384
+2025-02-20 09:02:12,753 - cammer_logger - INFO - 
+START: 2025-02-20T09:02:11.916384
 Deleting existing C:\Users\pete.lewis\Documents\GitHub\SparkFun_Audio_Player_Breakout_MY1690X-16S\Hardware\Production\SparkFun_Audio_Player_Breakout_MY1690X-16S_panelized.GTL
 Renaming C:\Users\pete.lewis\Documents\GitHub\SparkFun_Audio_Player_Breakout_MY1690X-16S\Hardware\Production\SparkFun_Audio_Player_Breakout_MY1690X-16S_panelized-F_Cu.gbr to C:\Users\pete.lewis\Documents\GitHub\SparkFun_Audio_Player_Breakout_MY1690X-16S\Hardware\Production\SparkFun_Audio_Player_Breakout_MY1690X-16S_panelized.GTL
 Deleting existing C:\Users\pete.lewis\Documents\GitHub\SparkFun_Audio_Player_Breakout_MY1690X-16S\Hardware\Production\SparkFun_Audio_Player_Breakout_MY1690X-16S_panelized.GL2
@@ -27,4 +27,4 @@ Deleting existing C:\Users\pete.lewis\Documents\GitHub\SparkFun_Audio_Player_Bre
 Renaming C:\Users\pete.lewis\Documents\GitHub\SparkFun_Audio_Player_Breakout_MY1690X-16S\Hardware\Production\SparkFun_Audio_Player_Breakout_MY1690X-16S_panelized-Edge_Cuts.gbr to C:\Users\pete.lewis\Documents\GitHub\SparkFun_Audio_Player_Breakout_MY1690X-16S\Hardware\Production\SparkFun_Audio_Player_Breakout_MY1690X-16S_panelized.GKO
 Drill report: C:\Users\pete.lewis\Documents\GitHub\SparkFun_Audio_Player_Breakout_MY1690X-16S\Hardware\Production\drill_report.rpt
 
-2025-02-19 12:52:32,303 - cammer_logger - INFO - CAMmer complete
+2025-02-20 09:02:14,860 - cammer_logger - INFO - CAMmer complete

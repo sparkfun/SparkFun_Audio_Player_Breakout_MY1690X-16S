@@ -1,8 +1,8 @@
-2025-02-19 12:52:06,591 - panelizer_logger - INFO - Running Panelizer
-2025-02-19 12:52:06,592 - panelizer_logger - INFO - ['--panelx', '114.300000', '--panely', '165.100000', '--smaller', '--vscorelayer', 'User.Comments', '--vscoretextlayer', 'User.Comments', '--gapx', '0.000000', '--gapy', '5.080000', '--hrail', '6.35', '--vrail', '6.35', '--fiducialpos', '0.25', '--fiducialslr']
-2025-02-19 12:52:06,593 - panelizer_logger - INFO - PANELIZER START: 2025-02-19T12:52:06.593976
-2025-02-19 12:52:15,866 - panelizer_logger - INFO - 
-START: 2025-02-19T12:52:06.593976
+2025-02-20 08:59:10,064 - panelizer_logger - INFO - Running Panelizer
+2025-02-20 08:59:10,068 - panelizer_logger - INFO - ['--panelx', '114.300000', '--panely', '190.500000', '--smaller', '--vscorelayer', 'User.Comments', '--vscoretextlayer', 'User.Comments', '--gapx', '0.000000', '--gapy', '7.620000', '--hrail', '6.35', '--vrail', '6.35', '--fiducialpos', '0.25', '--fiducialslr']
+2025-02-20 08:59:10,069 - panelizer_logger - INFO - PANELIZER START: 2025-02-20T08:59:10.069877
+2025-02-20 08:59:18,190 - panelizer_logger - INFO - 
+START: 2025-02-20T08:59:10.069877
 Board saved by user.
 Zones filled by user.
 
@@ -10,4 +10,4 @@ Board: C:\Users\pete.lewis\Documents\GitHub\SparkFun_Audio_Player_Breakout_MY169
 Board dimensions: 25.40 x 25.40 mm.
 You can fit 4 x 5 boards on the panel.
 
-2025-02-19 12:52:18,819 - panelizer_logger - INFO - Panelizer complete
+2025-02-20 08:59:20,090 - panelizer_logger - INFO - Panelizer complete

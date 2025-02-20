@@ -1,5 +1,5 @@
 Ordering Instructions:
-Panel dimensions: 116.80 x 173.18 mm.
+Panel dimensions: 116.80 x 188.42 mm.
 Solder Mask: Red
 Silkscreen Color: White
 Layers: 4
