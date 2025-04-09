@@ -1,13 +1,11 @@
 SparkFun Audio Player Breakout - MY1690X-16S
 ========================================
 
-[![SparkFun Audio Player Breakout - MY1690X-16S](URL for picture of part)](https://www.sparkfun.com/catalog/product/view/id/28038)
+[![SparkFun Audio Player Breakout - MY1690X-16S](./docs/assets/img/SparkFun_Audio_Player_Breakout_MY1690X-Banner.jpg)](https://www.sparkfun.com/sparkfun-audio-player-breakout-my1690x-16s.html)
 
-[*SparkFun Audio Player Breakout - MY1690X-16S (BOB-28038)*](https://www.sparkfun.com/catalog/product/view/id/28038)
+[*SparkFun Audio Player Breakout - MY1690X-16S (BOB-28038)*](https://www.sparkfun.com/sparkfun-audio-player-breakout-my1690x-16s.html)
 
-<Basic description of the part.>
-
-
+The SparkFun M71690X-16S Audio Player Breakout is a compact serial-controlled audio player designed around the MY1690X-16S decoder that supports both .WAV and .MP3 audio files played from a connected microSD card formatted to FAT16 or FAT32. The board includes a USB-C connector to mount it as a removable USB drive on a connected computer, a µSD card slot for connecting a compatible SD card, and a 3.5mm TRRS connector for headphone audio output.
 
 Repository Contents
 -------------------
@@ -27,25 +25,14 @@ Repository Contents
   * **/.icons** - Icons used for GitHub used for product documentation
   * **./partials** - Used for product documentation
 
-
-
 Documentation
 --------------
+* **[SparkFun MY1690X MP3 Decoder Arduino Library](https://github.com/sparkfun/SparkFun_MY1690_MP3_Decoder_Arduino_Library)** - Arduino library for the MY1690X MP3 Decoder.
 * **[Hookup Guide](https://docs.sparkfun.com/SparkFun_Audio_Player_Breakout_MY1690X-16S)** - Basic hookup guide for the SparkFun Serial Audio Player Breakout - MY1690X.
-
-
 
 Product Versions
 ----------------
-* [BOB-28038](https://www.sparkfun.com/catalog/product/view/id/28038) - v1.0
-
-
-
-Version History
----------------
-* v1.0 - Initial release
-
-
+* [BOB-28038](https://www.sparkfun.com/sparkfun-audio-player-breakout-my1690x-16s.html) - v1.0
 
 License Information
 -------------------
@@ -59,5 +46,3 @@ If you have any questions or concerns on licensing, please contact technical sup
 Distributed as-is; no warranty is given.
 
 - Your friends at SparkFun.
-
-_<COLLABORATION CREDIT>_
